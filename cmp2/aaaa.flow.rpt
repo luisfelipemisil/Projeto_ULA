@@ -1,0 +1,123 @@
+Flow report for aaaa
+Wed Apr 11 17:56:12 2018
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++------------------------------------+----------------------------------------------+
+; Flow Status                        ; Successful - Wed Apr 11 17:56:12 2018        ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; aaaa                                         ;
+; Top-level Entity Name              ; ULAULA-SOMA-complemento2                     ;
+; Family                             ; Cyclone IV E                                 ;
+; Device                             ; EP4CE115F29C7                                ;
+; Timing Models                      ; Preliminary                                  ;
+; Met timing requirements            ; N/A                                          ;
+; Total logic elements               ; 6 / 114,480 ( < 1 % )                        ;
+;     Total combinational functions  ; 6 / 114,480 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 0 / 114,480 ( 0 % )                          ;
+; Total registers                    ; 0                                            ;
+; Total pins                         ; 10 / 529 ( 2 % )                             ;
+; Total virtual pins                 ; 0                                            ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                        ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                ;
++------------------------------------+----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/11/2018 17:55:50 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; aaaa                ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                   ;
++------------------------------------+---------------------------------------------------+---------------+--------------------------+----------------+
+; Assignment Name                    ; Value                                             ; Default Value ; Entity Name              ; Section Id     ;
++------------------------------------+---------------------------------------------------+---------------+--------------------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 123509610493828.152348015006864                   ; --            ; --                       ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                ; --            ; --                       ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                 ; --            ; --                       ; --             ;
+; MISC_FILE                          ; C:/Users/lfms/Documents/Projeto_ULA/cmp2/aaaa.dpf ; --            ; --                       ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                              ; --            ; --                       ; --             ;
+; PARTITION_COLOR                    ; 16764057                                          ; --            ; ULAULA-SOMA-complemento2 ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                            ; --            ; ULAULA-SOMA-complemento2 ; Top            ;
+; TOP_LEVEL_ENTITY                   ; ULAULA-SOMA-complemento2                          ; aaaa          ; --                       ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                               ; --            ; --                       ; eda_blast_fpga ;
++------------------------------------+---------------------------------------------------+---------------+--------------------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 225 MB              ; 00:00:01                           ;
+; Fitter                    ; 00:00:13     ; 2.3                     ; 433 MB              ; 00:00:15                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 439 MB              ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 324 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:22                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; HWC13            ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                    ; HWC13            ; Windows Vista ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; HWC13            ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler                 ; HWC13            ; Windows Vista ; 6.1        ; x86_64         ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off aaaa -c aaaa
+quartus_fit --read_settings_files=off --write_settings_files=off aaaa -c aaaa
+quartus_sta aaaa -c aaaa
+quartus_asm --read_settings_files=off --write_settings_files=off aaaa -c aaaa
+
+
+

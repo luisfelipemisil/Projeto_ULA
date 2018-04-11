@@ -1,0 +1,13 @@
+|ULAULA-SOMA-complemento2
+s0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+soma => inst48.IN0
+sinal => inst48.IN1
+i0 => inst49.IN1
+s1 <= inst33.DB_MAX_OUTPUT_PORT_TYPE
+i1 => inst50.IN1
+s2 <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+i2 => inst51.IN1
+s3 <= inst47.DB_MAX_OUTPUT_PORT_TYPE
+i3 => inst52.IN1
+
+
