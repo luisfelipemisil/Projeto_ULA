@@ -18,29 +18,13 @@
 #
 # Quartus II
 # Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-# Date created = 11:14:26  April 11, 2018
-#
-# -------------------------------------------------------------------------- #
-#
-# Notes:
-#
-# 1) The default values for assignments are stored in the file:
-#		ULAULA-SOMA-complemento2_assignment_defaults.qdf
-#    If this file doesn't exist, see file:
-#		assignment_defaults.qdf
-#
-# 2) Altera recommends that you do not modify this file. This
-#    file is updated automatically by the Quartus II software
-#    and any changes you make may be lost or overwritten.
+# Date created = 15:20:09  April 11, 2018
 #
 # -------------------------------------------------------------------------- #
 
+QUARTUS_VERSION = "9.1"
+DATE = "15:20:09  April 11, 2018"
 
-set_global_assignment -name FAMILY "Cyclone II"
-set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY "ULAULA-SOMA-complemento2"
-set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:14:26  APRIL 11, 2018"
-set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
-set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
-set_global_assignment -name BDF_FILE "ULAULA-SOMA-complemento2.bdf"
+# Revisions
+
+PROJECT_REVISION = "ULAULA-SOMA-esquema"

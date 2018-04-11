@@ -3205,28 +3205,8 @@ applicable agreement for further details.
 	(pt 1552 -248)
 )
 (connector
-	(pt 1320 -224)
-	(pt 1496 -224)
-)
-(connector
 	(pt 1496 -224)
 	(pt 1512 -224)
-)
-(connector
-	(pt 1376 -256)
-	(pt 1400 -256)
-)
-(connector
-	(pt 1400 -256)
-	(pt 1440 -256)
-)
-(connector
-	(pt 1400 -256)
-	(pt 1400 -200)
-)
-(connector
-	(pt 1400 -200)
-	(pt 1400 -80)
 )
 (connector
 	(pt 1400 -80)
@@ -3267,10 +3247,6 @@ applicable agreement for further details.
 (connector
 	(pt 1296 160)
 	(pt 1328 160)
-)
-(connector
-	(pt 1328 160)
-	(pt 1504 160)
 )
 (connector
 	(pt 1504 160)
@@ -3337,22 +3313,6 @@ applicable agreement for further details.
 	(pt 1568 544)
 )
 (connector
-	(pt 1392 536)
-	(pt 1416 536)
-)
-(connector
-	(pt 1416 536)
-	(pt 1456 536)
-)
-(connector
-	(pt 1416 536)
-	(pt 1416 592)
-)
-(connector
-	(pt 1416 592)
-	(pt 1416 712)
-)
-(connector
 	(pt 1408 696)
 	(pt 1464 696)
 )
@@ -3399,10 +3359,6 @@ applicable agreement for further details.
 (connector
 	(pt 1312 952)
 	(pt 1344 952)
-)
-(connector
-	(pt 1344 952)
-	(pt 1520 952)
 )
 (connector
 	(pt 1520 952)
@@ -3461,22 +3417,6 @@ applicable agreement for further details.
 	(pt 1560 136)
 )
 (connector
-	(pt 1384 128)
-	(pt 1408 128)
-)
-(connector
-	(pt 1408 128)
-	(pt 1448 128)
-)
-(connector
-	(pt 1408 128)
-	(pt 1408 184)
-)
-(connector
-	(pt 1408 184)
-	(pt 1408 304)
-)
-(connector
 	(pt 1088 232)
 	(pt 1328 232)
 )
@@ -3495,10 +3435,6 @@ applicable agreement for further details.
 (connector
 	(pt 1304 568)
 	(pt 1336 568)
-)
-(connector
-	(pt 1336 568)
-	(pt 1512 568)
 )
 (connector
 	(pt 1512 568)
@@ -3527,22 +3463,6 @@ applicable agreement for further details.
 (connector
 	(pt 1480 928)
 	(pt 1576 928)
-)
-(connector
-	(pt 1400 920)
-	(pt 1424 920)
-)
-(connector
-	(pt 1424 920)
-	(pt 1464 920)
-)
-(connector
-	(pt 1424 920)
-	(pt 1424 976)
-)
-(connector
-	(pt 1424 976)
-	(pt 1424 1096)
 )
 (connector
 	(pt 1096 1024)
@@ -3632,6 +3552,86 @@ applicable agreement for further details.
 	(pt 1240 -224)
 	(pt 1320 -224)
 )
+(connector
+	(pt 1376 -256)
+	(pt 1440 -256)
+)
+(connector
+	(pt 1320 -224)
+	(pt 1400 -224)
+)
+(connector
+	(pt 1400 -224)
+	(pt 1496 -224)
+)
+(connector
+	(pt 1400 -224)
+	(pt 1400 -200)
+)
+(connector
+	(pt 1400 -200)
+	(pt 1400 -80)
+)
+(connector
+	(pt 1384 128)
+	(pt 1448 128)
+)
+(connector
+	(pt 1328 160)
+	(pt 1408 160)
+)
+(connector
+	(pt 1408 160)
+	(pt 1504 160)
+)
+(connector
+	(pt 1408 160)
+	(pt 1408 184)
+)
+(connector
+	(pt 1408 184)
+	(pt 1408 304)
+)
+(connector
+	(pt 1392 536)
+	(pt 1456 536)
+)
+(connector
+	(pt 1336 568)
+	(pt 1416 568)
+)
+(connector
+	(pt 1416 568)
+	(pt 1512 568)
+)
+(connector
+	(pt 1416 568)
+	(pt 1416 592)
+)
+(connector
+	(pt 1416 592)
+	(pt 1416 712)
+)
+(connector
+	(pt 1400 920)
+	(pt 1464 920)
+)
+(connector
+	(pt 1344 952)
+	(pt 1424 952)
+)
+(connector
+	(pt 1424 952)
+	(pt 1520 952)
+)
+(connector
+	(pt 1424 952)
+	(pt 1424 976)
+)
+(connector
+	(pt 1424 976)
+	(pt 1424 1096)
+)
 (junction (pt 824 168))
 (junction (pt 824 216))
 (junction (pt 824 264))
@@ -3641,8 +3641,6 @@ applicable agreement for further details.
 (junction (pt 1456 -248))
 (junction (pt 1320 -224))
 (junction (pt 1496 -224))
-(junction (pt 1400 -200))
-(junction (pt 1400 -256))
 (junction (pt 1416 -80))
 (junction (pt 1448 -96))
 (junction (pt 1432 -32))
@@ -3662,8 +3660,6 @@ applicable agreement for further details.
 (junction (pt 1472 -152))
 (junction (pt 1432 600))
 (junction (pt 1472 544))
-(junction (pt 1416 592))
-(junction (pt 1416 536))
 (junction (pt 1464 696))
 (junction (pt 1448 760))
 (junction (pt 1344 504))
@@ -3683,8 +3679,6 @@ applicable agreement for further details.
 (junction (pt 1424 192))
 (junction (pt 1440 984))
 (junction (pt 1464 136))
-(junction (pt 1408 184))
-(junction (pt 1408 128))
 (junction (pt 1432 232))
 (junction (pt 1480 232))
 (junction (pt 1336 568))
@@ -3692,7 +3686,13 @@ applicable agreement for further details.
 (junction (pt 1536 560))
 (junction (pt 1432 712))
 (junction (pt 1480 928))
-(junction (pt 1424 976))
-(junction (pt 1424 920))
 (junction (pt 1448 1024))
 (junction (pt 1496 1024))
+(junction (pt 1400 -224))
+(junction (pt 1400 -200))
+(junction (pt 1408 160))
+(junction (pt 1408 184))
+(junction (pt 1416 568))
+(junction (pt 1416 592))
+(junction (pt 1424 952))
+(junction (pt 1424 976))

@@ -1,0 +1,43 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+12
+1222
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ULAULA-SOMA-esquema
+# storage
+db|soma.(0).cnf
+db|soma.(0).cnf
+# case_insensitive
+# source_file
+ulaula-soma-esquema.bdf
+5cbdef7fb931a8e2bd7c4d97801e3ac3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
