@@ -5214,32 +5214,6 @@ applicable agreement for further details.
 	)
 	(flipx)
 )
-(symbol
-	(rect 2048 -120 2080 -72)
-	(text "NOT" (rect 0 1 10 21)(font "Arial" (font_size 6))(vertical))
-	(text "inst32" (rect 21 3 33 32)(font "Arial" )(vertical))
-	(port
-		(pt 16 0)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 7 2 19 13)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 16 0)(pt 16 13))
-	)
-	(port
-		(pt 16 48)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 7 32 19 49)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 16 39)(pt 16 48))
-	)
-	(drawing
-		(line (pt 25 13)(pt 7 13))
-		(line (pt 7 13)(pt 16 31))
-		(line (pt 25 13)(pt 16 31))
-		(circle (rect 12 31 20 39))
-	)
-	(flipy_rotate90)
-)
 (connector
 	(pt -376 -416)
 	(pt -368 -416)
@@ -8197,6 +8171,22 @@ applicable agreement for further details.
 	(pt 2032 -24)
 )
 (connector
+	(pt 2032 -80)
+	(pt 2032 -24)
+)
+(connector
+	(pt 2032 -80)
+	(pt 2064 -80)
+)
+(connector
+	(pt 2064 -80)
+	(pt 2064 -248)
+)
+(connector
+	(pt 1912 -248)
+	(pt 2064 -248)
+)
+(connector
 	(pt 3016 -64)
 	(pt 3016 -56)
 )
@@ -8279,6 +8269,10 @@ applicable agreement for further details.
 (connector
 	(pt 2800 -8)
 	(pt 2800 -40)
+)
+(connector
+	(pt 2064 -248)
+	(pt 2392 -248)
 )
 (connector
 	(pt 2392 -248)
@@ -8640,26 +8634,6 @@ applicable agreement for further details.
 	(pt 2112 -136)
 	(pt 2112 80)
 )
-(connector
-	(pt 2032 -24)
-	(pt 2032 -72)
-)
-(connector
-	(pt 2032 -72)
-	(pt 2064 -72)
-)
-(connector
-	(pt 1912 -248)
-	(pt 2064 -248)
-)
-(connector
-	(pt 2064 -248)
-	(pt 2392 -248)
-)
-(connector
-	(pt 2064 -248)
-	(pt 2064 -120)
-)
 (junction (pt -576 -96))
 (junction (pt -560 -80))
 (junction (pt -544 -64))
@@ -8786,10 +8760,10 @@ applicable agreement for further details.
 (junction (pt 1840 -24))
 (junction (pt 1816 -8))
 (junction (pt 1800 8))
+(junction (pt 2064 -248))
 (junction (pt 2584 -56))
 (junction (pt 2600 -40))
 (junction (pt 2632 -8))
 (junction (pt 2648 8))
 (junction (pt 2616 -24))
-(junction (pt 2064 -248))
 (text "a0   a1  a2  a3    sa             b0  b1  b2  b3   sb" (rect -616 280 -358 294)(font "Arial" (font_size 8)))

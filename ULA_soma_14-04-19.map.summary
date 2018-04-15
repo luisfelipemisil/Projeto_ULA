@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Apr 14 21:20:16 2018
+Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : ULA_soma_14-04-19
+Top-level Entity Name : ULA_soma_14-04-19
+Family : Cyclone IV E
+Total logic elements : 79
+    Total combinational functions : 79
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 64
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
