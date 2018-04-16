@@ -20,26 +20,6 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-ULA-16-04-18a
-# storage
-db|ULA-16-04-18a.(0).cnf
-db|ULA-16-04-18a.(0).cnf
-# case_insensitive
-# source_file
-ula-16-04-18a.bdf
-36f93488d2405c7199cbd39a1b4ddc45
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 bcd14seg
 # storage
 db|ULA-16-04-18a.(1).cnf
@@ -127,6 +107,7 @@ mandachuva:inst43
 mandachuva:inst44
 mandachuva:inst45
 mandachuva:inst46
+mandachuva:inst81
 mandachuva:inst40
 mandachuva:inst41
 }
@@ -149,26 +130,6 @@ AUTO
 }
 # hierarchies {
 igualigual:inst18
-}
-# macro_sequence
-
-# end
-# entity
-bcd14segout3
-# storage
-db|ULA-16-04-18a.(6).cnf
-db|ULA-16-04-18a.(6).cnf
-# case_insensitive
-# source_file
-bcd14segout3.bdf
-d96f30e9c79c7a74b79fbef8c7731e6
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-bcd14segout3:inst57
 }
 # macro_sequence
 
@@ -271,6 +232,46 @@ AUTO
 }
 # hierarchies {
 ulaxor:inst69
+}
+# macro_sequence
+
+# end
+# entity
+bcd14segout3
+# storage
+db|ULA-16-04-18a.(6).cnf
+db|ULA-16-04-18a.(6).cnf
+# case_insensitive
+# source_file
+bcd14segout3.bdf
+bdb56a2c41728b35fb826156975418e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+bcd14segout3:inst57
+}
+# macro_sequence
+
+# end
+# entity
+ULA-16-04-18a
+# storage
+db|ULA-16-04-18a.(0).cnf
+db|ULA-16-04-18a.(0).cnf
+# case_insensitive
+# source_file
+ula-16-04-18a.bdf
+60d89526efb3a0c140bde2603226b4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 
