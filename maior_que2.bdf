@@ -182,7 +182,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 2104 416 2280 432)
+	(rect 1920 424 2096 440)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "OUT" (rect 90 0 112 12)(font "Arial" ))
 	(pt 0 8)
@@ -1597,7 +1597,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1960 400 2024 448)
+	(rect 1808 400 1872 448)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst39" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -2630,36 +2630,44 @@ applicable agreement for further details.
 	(pt 616 448)
 )
 (connector
+	(pt 1752 440)
+	(pt 1752 432)
+)
+(connector
+	(pt 1744 440)
+	(pt 1752 440)
+)
+(connector
+	(pt 1752 432)
+	(pt 1808 432)
+)
+(connector
+	(pt 1912 432)
+	(pt 1912 424)
+)
+(connector
+	(pt 1920 432)
+	(pt 1912 432)
+)
+(connector
+	(pt 1912 424)
+	(pt 1872 424)
+)
+(connector
+	(pt 1808 416)
+	(pt 1752 416)
+)
+(connector
+	(pt 1752 416)
+	(pt 1752 96)
+)
+(connector
 	(pt 616 96)
 	(pt 616 448)
 )
 (connector
 	(pt 616 96)
 	(pt 1704 96)
-)
-(connector
-	(pt 1752 96)
-	(pt 1752 416)
-)
-(connector
-	(pt 2104 424)
-	(pt 2024 424)
-)
-(connector
-	(pt 1752 416)
-	(pt 1960 416)
-)
-(connector
-	(pt 1904 432)
-	(pt 1904 440)
-)
-(connector
-	(pt 1960 432)
-	(pt 1904 432)
-)
-(connector
-	(pt 1744 440)
-	(pt 1904 440)
 )
 (junction (pt 200 192))
 (junction (pt 192 216))

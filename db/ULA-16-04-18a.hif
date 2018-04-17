@@ -61,28 +61,6 @@ sistema:inst
 
 # end
 # entity
-maior_que
-# storage
-db|ULA-16-04-18a.(3).cnf
-db|ULA-16-04-18a.(3).cnf
-# case_insensitive
-# source_file
-maior_que.bdf
-5a76d015b3633d3caf5d80413d77d179
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-maior_que:inst34
-maior_que:inst31
-maior_que:inst39
-}
-# macro_sequence
-
-# end
-# entity
 mandachuva
 # storage
 db|ULA-16-04-18a.(4).cnf
@@ -114,7 +92,10 @@ BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
+menor_que:inst4|igualigual:inst1
+maior_que:inst34|igualigual:inst1
 igualigual:inst18
+maior_que:inst31|igualigual:inst1
 }
 # macro_sequence
 
@@ -220,21 +201,21 @@ bcd14segout3:inst57
 
 # end
 # entity
-ULA-16-04-18a
+comple2_para_5_bits
 # storage
-db|ULA-16-04-18a.(0).cnf
-db|ULA-16-04-18a.(0).cnf
+db|ULA-16-04-18a.(8).cnf
+db|ULA-16-04-18a.(8).cnf
 # case_insensitive
 # source_file
-ula-16-04-18a.bdf
-8799aac483f47e961036e4b01758b9f5
+comple2_para_5_bits.bdf
+ff71b7235669aceb81928a583e02f97
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
 AUTO
 }
 # hierarchies {
-|
+comple2_para_5_bits:inst3
 }
 # macro_sequence
 
@@ -242,12 +223,12 @@ AUTO
 # entity
 complemento2
 # storage
-db|ULA-16-04-18a.(8).cnf
-db|ULA-16-04-18a.(8).cnf
+db|ULA-16-04-18a.(12).cnf
+db|ULA-16-04-18a.(12).cnf
 # case_insensitive
 # source_file
 complemento2.bdf
-77b8ede56fd127329025f12218ee561a
+c1ca7d4b522c9642e146fa6157ddb8d6
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -257,6 +238,67 @@ AUTO
 complemento2:inst19
 complemento2:inst22
 complemento2:inst17
+}
+# macro_sequence
+
+# end
+# entity
+menor_que
+# storage
+db|ULA-16-04-18a.(3).cnf
+db|ULA-16-04-18a.(3).cnf
+# case_insensitive
+# source_file
+menor_que.bdf
+1da68e52a8e7ea845ee0115c2a6b6728
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+menor_que:inst4
+}
+# macro_sequence
+
+# end
+# entity
+maior_que
+# storage
+db|ULA-16-04-18a.(13).cnf
+db|ULA-16-04-18a.(13).cnf
+# case_insensitive
+# source_file
+maior_que.bdf
+602ba10878541851ce2ff7e4ecc204f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maior_que:inst34
+maior_que:inst31
+}
+# macro_sequence
+
+# end
+# entity
+ULA-16-04-18a
+# storage
+db|ULA-16-04-18a.(0).cnf
+db|ULA-16-04-18a.(0).cnf
+# case_insensitive
+# source_file
+ula-16-04-18a.bdf
+c26172ac867aa3675223381913306fad
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 
