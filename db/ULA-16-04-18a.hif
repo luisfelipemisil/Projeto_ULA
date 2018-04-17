@@ -96,21 +96,6 @@ mandachuva.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
-# hierarchies {
-mandachuva:inst37
-mandachuva:inst38
-mandachuva:inst35
-mandachuva:inst36
-mandachuva:inst73
-mandachuva:inst74
-mandachuva:inst43
-mandachuva:inst44
-mandachuva:inst45
-mandachuva:inst46
-mandachuva:inst81
-mandachuva:inst40
-mandachuva:inst41
-}
 # macro_sequence
 
 # end
@@ -150,28 +135,6 @@ AUTO
 }
 # hierarchies {
 ulaula-soma-esquema:inst14
-}
-# macro_sequence
-
-# end
-# entity
-complemento2
-# storage
-db|ULA-16-04-18a.(8).cnf
-db|ULA-16-04-18a.(8).cnf
-# case_insensitive
-# source_file
-complemento2.bdf
-b4d1e7bf4e4e8a44e93b38d458f68de9
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-complemento2:inst19
-complemento2:inst22
-complemento2:inst17
 }
 # macro_sequence
 
@@ -264,7 +227,7 @@ db|ULA-16-04-18a.(0).cnf
 # case_insensitive
 # source_file
 ula-16-04-18a.bdf
-60d89526efb3a0c140bde2603226b4
+8799aac483f47e961036e4b01758b9f5
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -272,6 +235,28 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+complemento2
+# storage
+db|ULA-16-04-18a.(8).cnf
+db|ULA-16-04-18a.(8).cnf
+# case_insensitive
+# source_file
+complemento2.bdf
+77b8ede56fd127329025f12218ee561a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+complemento2:inst19
+complemento2:inst22
+complemento2:inst17
 }
 # macro_sequence
 
