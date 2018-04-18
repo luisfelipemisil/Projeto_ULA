@@ -282,26 +282,6 @@ bcd14segout3:inst57
 
 # end
 # entity
-ULA-16-04-18a
-# storage
-db|ULA-16-04-18a.(0).cnf
-db|ULA-16-04-18a.(0).cnf
-# case_insensitive
-# source_file
-ula-16-04-18a.bdf
-19bbd4a1408a179d3bc9fd1de2e419c0
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 subComp2
 # storage
 db|ULA-16-04-18a.(9).cnf
@@ -317,6 +297,47 @@ AUTO
 }
 # hierarchies {
 subcomp2:inst1
+}
+# macro_sequence
+
+# end
+# entity
+zero1
+# storage
+db|ULA-16-04-18a.(15).cnf
+db|ULA-16-04-18a.(15).cnf
+# case_insensitive
+# source_file
+zero1.bdf
+11e316dc2256de332497f38734f22955
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+zero1:inst114
+zero1:inst113
+}
+# macro_sequence
+
+# end
+# entity
+ULA-16-04-18a
+# storage
+db|ULA-16-04-18a.(0).cnf
+db|ULA-16-04-18a.(0).cnf
+# case_insensitive
+# source_file
+ula-16-04-18a.bdf
+55a7f95e211f1f59758629d886d1456
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

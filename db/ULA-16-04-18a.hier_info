@@ -4,6 +4,7 @@ a3 => bcd14seg:inst20.in1
 a3 => menor_que:inst4.a3
 a3 => maior_que:inst34.a3
 a3 => igualigual:inst18.a3
+a3 => zero1:inst114.e3
 a3 => comple2_para_5_bits:inst5.i3
 a3 => aa3.IN1
 a3 => ULAand:inst68.a3
@@ -12,6 +13,7 @@ a2 => bcd14seg:inst20.in2
 a2 => menor_que:inst4.a2
 a2 => maior_que:inst34.a2
 a2 => igualigual:inst18.a2
+a2 => zero1:inst114.e2
 a2 => comple2_para_5_bits:inst5.i2
 a2 => aa2.IN1
 a2 => ULAand:inst68.a2
@@ -20,6 +22,7 @@ a1 => bcd14seg:inst20.in3
 a1 => menor_que:inst4.a1
 a1 => maior_que:inst34.a1
 a1 => igualigual:inst18.a1
+a1 => zero1:inst114.e1
 a1 => comple2_para_5_bits:inst5.i1
 a1 => aa1.IN1
 a1 => ULAand:inst68.a1
@@ -28,6 +31,7 @@ a0 => bcd14seg:inst20.in4
 a0 => menor_que:inst4.a0
 a0 => maior_que:inst34.a0
 a0 => igualigual:inst18.a0
+a0 => zero1:inst114.e0
 a0 => comple2_para_5_bits:inst5.i0
 a0 => aa0.IN1
 a0 => ULAand:inst68.a0
@@ -50,6 +54,7 @@ b3 => bcd14seg:inst47.in1
 b3 => menor_que:inst4.b3
 b3 => maior_que:inst34.b3
 b3 => igualigual:inst18.b3
+b3 => zero1:inst113.e3
 b3 => comple2_para_5_bits:inst6.i3
 b3 => bb3.IN1
 b3 => ULAand:inst68.b3
@@ -59,6 +64,7 @@ b2 => bcd14seg:inst47.in2
 b2 => menor_que:inst4.b2
 b2 => maior_que:inst34.b2
 b2 => igualigual:inst18.b2
+b2 => zero1:inst113.e2
 b2 => comple2_para_5_bits:inst6.i2
 b2 => bb22.IN1
 b2 => ULAand:inst68.b2
@@ -68,6 +74,7 @@ b1 => bcd14seg:inst47.in3
 b1 => menor_que:inst4.b1
 b1 => maior_que:inst34.b1
 b1 => igualigual:inst18.b1
+b1 => zero1:inst113.e1
 b1 => comple2_para_5_bits:inst6.i1
 b1 => bb1.IN1
 b1 => ULAand:inst68.b1
@@ -77,6 +84,7 @@ b0 => bcd14seg:inst47.in4
 b0 => menor_que:inst4.b0
 b0 => maior_que:inst34.b0
 b0 => igualigual:inst18.b0
+b0 => zero1:inst113.e0
 b0 => bb0.IN1
 b0 => comple2_para_5_bits:inst6.i0
 b0 => ULAand:inst68.b0
@@ -99,9 +107,7 @@ pin_name <= inst56.DB_MAX_OUTPUT_PORT_TYPE
 sa => menor_que:inst4.sa
 sa => maior_que:inst34.sa
 sa => igualigual:inst18.sa
-sa => comple2_para_5_bits:inst5.sinal
-sa => inst94.IN0
-sa => ulaula-soma-esquema:inst110.a5
+sa => inst31.IN0
 sa => ULAand:inst68.sa
 sa => ULAxor:inst69.sa
 sa => Sa2.DATAIN
@@ -607,6 +613,22 @@ s3 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
 i3 => inst36.IN0
 s4 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
 i4 => inst40.IN0
+
+
+|ULA-16-04-18a|zero1:inst114
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+e3 => inst3.IN0
+e2 => inst3.IN1
+e1 => inst.IN0
+e0 => inst.IN1
+
+
+|ULA-16-04-18a|zero1:inst113
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+e3 => inst3.IN0
+e2 => inst3.IN1
+e1 => inst.IN0
+e0 => inst.IN1
 
 
 |ULA-16-04-18a|subComp2:inst1
