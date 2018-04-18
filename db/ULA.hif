@@ -41,43 +41,6 @@ bcd14seg:inst47
 
 # end
 # entity
-sistema
-# storage
-db|ULA.(3).cnf
-db|ULA.(3).cnf
-# case_insensitive
-# source_file
-sistema.bdf
-a4d0939927d4bb1fbfe709760d8176b
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-sistema:inst
-}
-# macro_sequence
-
-# end
-# entity
-mandachuva
-# storage
-db|ULA.(5).cnf
-db|ULA.(5).cnf
-# case_insensitive
-# source_file
-mandachuva.bdf
-8470bc9c342f91305f710948582bb5c
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# macro_sequence
-
-# end
-# entity
 igualigual
 # storage
 db|ULA.(6).cnf
@@ -95,127 +58,6 @@ AUTO
 menor_que:inst4|igualigual:inst1
 maior_que:inst34|igualigual:inst1
 igualigual:inst18
-}
-# macro_sequence
-
-# end
-# entity
-ULAand
-# storage
-db|ULA.(10).cnf
-db|ULA.(10).cnf
-# case_insensitive
-# source_file
-ulaand.bdf
-586ff3d02dbc40cfa045913e2c90a6db
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-ulaand:inst68
-}
-# macro_sequence
-
-# end
-# entity
-ULAxor
-# storage
-db|ULA.(11).cnf
-db|ULA.(11).cnf
-# case_insensitive
-# source_file
-ulaxor.bdf
-d9cf7b3b443fc560c0979aa238f80bd
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-ulaxor:inst69
-}
-# macro_sequence
-
-# end
-# entity
-ULA
-# storage
-db|ULA.(0).cnf
-db|ULA.(0).cnf
-# case_insensitive
-# source_file
-ula.bdf
-a3ad0e1be7f6a69efb37ba60ce3cfb
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
-menor_que
-# storage
-db|ULA.(2).cnf
-db|ULA.(2).cnf
-# case_insensitive
-# source_file
-menor_que.bdf
-c48724b1923e877bd3c18139155c04d
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-menor_que:inst4
-}
-# macro_sequence
-
-# end
-# entity
-zero
-# storage
-db|ULA.(4).cnf
-db|ULA.(4).cnf
-# case_insensitive
-# source_file
-zero.bdf
-d0338c917c59f9309634a7d02ff43c38
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-menor_que:inst4|zero:inst3
-maior_que:inst34|zero:inst3
-}
-# macro_sequence
-
-# end
-# entity
-maior_que
-# storage
-db|ULA.(7).cnf
-db|ULA.(7).cnf
-# case_insensitive
-# source_file
-maior_que.bdf
-b9d12756e54b20c7bd7a76a252246c65
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-maior_que:inst34
 }
 # macro_sequence
 
@@ -241,28 +83,6 @@ bcd14segout3:inst57
 
 # end
 # entity
-comple2_para_5_bits
-# storage
-db|ULA.(9).cnf
-db|ULA.(9).cnf
-# case_insensitive
-# source_file
-comple2_para_5_bits.bdf
-afa55bc1e4c239d2448a25b9431860
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-comple2_para_5_bits:inst3
-comple2_para_5_bits:inst5
-comple2_para_5_bits:inst6
-}
-# macro_sequence
-
-# end
-# entity
 ulaula-soma-esquema
 # storage
 db|ULA.(12).cnf
@@ -283,14 +103,117 @@ ulaula-soma-esquema:inst110
 
 # end
 # entity
+menor_que
+# storage
+db|ULA.(2).cnf
+db|ULA.(2).cnf
+# case_insensitive
+# source_file
+menor_que.bdf
+77ecc8beaae7a272ad355b3498473a14
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+menor_que:inst4
+}
+# macro_sequence
+
+# end
+# entity
+zero
+# storage
+db|ULA.(3).cnf
+db|ULA.(3).cnf
+# case_insensitive
+# source_file
+zero.bdf
+ac202381bc4d5abfccb53fb6bf45063
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+menor_que:inst4|zero:inst3
+maior_que:inst34|zero:inst3
+}
+# macro_sequence
+
+# end
+# entity
+sistema
+# storage
+db|ULA.(4).cnf
+db|ULA.(4).cnf
+# case_insensitive
+# source_file
+sistema.bdf
+6c711538b42f32ee87239d3d45cc430
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sistema:inst
+}
+# macro_sequence
+
+# end
+# entity
+maior_que
+# storage
+db|ULA.(5).cnf
+db|ULA.(5).cnf
+# case_insensitive
+# source_file
+maior_que.bdf
+eb8a1591f6a5e312548ff183a15f9b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maior_que:inst34
+}
+# macro_sequence
+
+# end
+# entity
+comple2_para_5_bits
+# storage
+db|ULA.(7).cnf
+db|ULA.(7).cnf
+# case_insensitive
+# source_file
+comple2_para_5_bits.bdf
+899fbf581d4c23fe30d7c8f6b7d184a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+comple2_para_5_bits:inst3
+comple2_para_5_bits:inst5
+comple2_para_5_bits:inst6
+}
+# macro_sequence
+
+# end
+# entity
 zero1
 # storage
-db|ULA.(13).cnf
-db|ULA.(13).cnf
+db|ULA.(9).cnf
+db|ULA.(9).cnf
 # case_insensitive
 # source_file
 zero1.bdf
-11e316dc2256de332497f38734f22955
+d7058e119c7307a54442a8874684d0
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -306,12 +229,12 @@ zero1:inst113
 # entity
 subComp2
 # storage
-db|ULA.(14).cnf
-db|ULA.(14).cnf
+db|ULA.(10).cnf
+db|ULA.(10).cnf
 # case_insensitive
 # source_file
 subcomp2.bdf
-c38f64f0b250feb374f9e576ad76d8
+157eb0e511b326773dd04ff37a86a977
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -324,14 +247,54 @@ subcomp2:inst1
 
 # end
 # entity
+ULAand
+# storage
+db|ULA.(11).cnf
+db|ULA.(11).cnf
+# case_insensitive
+# source_file
+ulaand.bdf
+6946ca39a3f4dd6c1f6ad72a12d5b9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ulaand:inst68
+}
+# macro_sequence
+
+# end
+# entity
+ULAxor
+# storage
+db|ULA.(13).cnf
+db|ULA.(13).cnf
+# case_insensitive
+# source_file
+ulaxor.bdf
+50be05b43f93f4aa7161880bb93d1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ulaxor:inst69
+}
+# macro_sequence
+
+# end
+# entity
 complemento2
 # storage
-db|ULA.(15).cnf
-db|ULA.(15).cnf
+db|ULA.(14).cnf
+db|ULA.(14).cnf
 # case_insensitive
 # source_file
 complemento2.bdf
-17812dcb1737e915f13b174f6dcd1c6b
+a5d3a98a456690ef8a35ff463db34fa
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -339,6 +302,26 @@ AUTO
 }
 # hierarchies {
 complemento2:inst17
+}
+# macro_sequence
+
+# end
+# entity
+ULA
+# storage
+db|ULA.(0).cnf
+db|ULA.(0).cnf
+# case_insensitive
+# source_file
+ula.bdf
+2521e7751c417d5f601aa79a21a2ef5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

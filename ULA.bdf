@@ -1108,6 +1108,22 @@ applicable agreement for further details.
 	)
 	(annotation_block (location)(rect 376 -144 432 -128))
 )
+(pin
+	(output)
+	(rect 2792 -312 2968 -296)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "sinout" (rect 90 0 119 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
 (symbol
 	(rect 904 168 952 232)
 	(text "AND2" (rect 0 39 10 63)(font "Arial" (font_size 6))(vertical))
@@ -5069,6 +5085,31 @@ applicable agreement for further details.
 		(arc (pt 31 37)(pt 30 12)(rect 18 12 44 38))
 	)
 )
+(symbol
+	(rect 2744 -320 2792 -288)
+	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
+	(text "inst2" (rect 3 21 26 33)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16)(line_width 1))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7)(line_width 1))
+		(line (pt 13 7)(pt 31 16)(line_width 1))
+		(line (pt 13 25)(pt 31 16)(line_width 1))
+		(circle (rect 31 12 39 20)(line_width 1))
+	)
+)
 (connector
 	(pt 920 -280)
 	(pt 920 -248)
@@ -5748,10 +5789,6 @@ applicable agreement for further details.
 (connector
 	(pt 2712 -192)
 	(pt 2712 -200)
-)
-(connector
-	(pt 2712 -200)
-	(pt 2776 -200)
 )
 (connector
 	(pt 2712 -176)
@@ -8989,6 +9026,22 @@ applicable agreement for further details.
 	(pt 1600 -304)
 	(pt 1944 -304)
 )
+(connector
+	(pt 2712 -200)
+	(pt 2728 -200)
+)
+(connector
+	(pt 2728 -200)
+	(pt 2776 -200)
+)
+(connector
+	(pt 2744 -304)
+	(pt 2728 -304)
+)
+(connector
+	(pt 2728 -304)
+	(pt 2728 -200)
+)
 (junction (pt 872 -280))
 (junction (pt 920 -280))
 (junction (pt 968 -280))
@@ -9126,4 +9179,5 @@ applicable agreement for further details.
 (junction (pt 2008 -160))
 (junction (pt 448 -160))
 (junction (pt 2008 -192))
+(junction (pt 2728 -200))
 (text "a0   a1  a2  a3    sa             b0  b1  b2  b3   sb" (rect -600 280 -342 294)(font "Arial" (font_size 8)))

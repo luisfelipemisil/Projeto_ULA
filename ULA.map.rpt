@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Tue Apr 17 21:59:39 2018
+Wed Apr 18 15:11:10 2018
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Apr 17 21:59:39 2018        ;
+; Analysis & Synthesis Status        ; Successful - Wed Apr 18 15:11:10 2018        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; ULA                                          ;
 ; Top-level Entity Name              ; ULA                                          ;
@@ -49,7 +49,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 125                                          ;
 ;     Dedicated logic registers      ; 0                                            ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 64                                           ;
+; Total pins                         ; 65                                           ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0                                            ;
 ; Embedded Multiplier 9-bit elements ; 0                                            ;
@@ -155,27 +155,27 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                      ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------+
-; ULA.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/lfms/Documents/Projeto_ULA/ULA.bdf                 ;
-; comple2_para_5_bits.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/lfms/Documents/Projeto_ULA/comple2_para_5_bits.bdf ;
-; bcd14seg.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/bcd14seg.bdf            ;
-; menor_que.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/menor_que.bdf           ;
-; igualigual.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/igualigual.bdf          ;
-; zero.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/zero.bdf                ;
-; sistema.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/sistema.bdf             ;
-; maior_que.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/maior_que.bdf           ;
-; bcd14segout3.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/bcd14segout3.bdf        ;
-; ulaula-soma-esquema.bdf          ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/ulaula-soma-esquema.bdf ;
-; zero1.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/zero1.bdf               ;
-; subcomp2.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/subcomp2.bdf            ;
-; ulaand.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/ulaand.bdf              ;
-; ulaxor.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/ulaxor.bdf              ;
-; complemento2.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/complemento2.bdf        ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                               ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                                         ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------------+
+; ULA.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ULA.bdf                 ;
+; comple2_para_5_bits.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/comple2_para_5_bits.bdf ;
+; bcd14seg.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/bcd14seg.bdf            ;
+; menor_que.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/menor_que.bdf           ;
+; igualigual.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/igualigual.bdf          ;
+; zero.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/zero.bdf                ;
+; sistema.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/sistema.bdf             ;
+; maior_que.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/maior_que.bdf           ;
+; bcd14segout3.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/bcd14segout3.bdf        ;
+; ulaula-soma-esquema.bdf          ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ulaula-soma-esquema.bdf ;
+; zero1.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/zero1.bdf               ;
+; subcomp2.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/subcomp2.bdf            ;
+; ulaand.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ulaand.bdf              ;
+; ulaxor.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ulaxor.bdf              ;
+; complemento2.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/complemento2.bdf        ;
++----------------------------------+-----------------+------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------+
@@ -199,11 +199,11 @@ applicable agreement for further details.
 ;     -- Dedicated logic registers            ; 0                      ;
 ;     -- I/O registers                        ; 0                      ;
 ;                                             ;                        ;
-; I/O pins                                    ; 64                     ;
+; I/O pins                                    ; 65                     ;
 ; Maximum fan-out node                        ; subcomp2:inst1|inst9~0 ;
 ; Maximum fan-out                             ; 23                     ;
-; Total fan-out                               ; 568                    ;
-; Average fan-out                             ; 2.25                   ;
+; Total fan-out                               ; 570                    ;
+; Average fan-out                             ; 2.24                   ;
 +---------------------------------------------+------------------------+
 
 
@@ -212,7 +212,7 @@ applicable agreement for further details.
 +----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
 ; Compilation Hierarchy Node       ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                   ; Library Name ;
 +----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
-; |ULA                             ; 125 (38)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 64   ; 0            ; |ULA                                  ; work         ;
+; |ULA                             ; 125 (38)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 65   ; 0            ; |ULA                                  ; work         ;
 ;    |bcd14seg:inst20|             ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14seg:inst20                  ;              ;
 ;    |bcd14seg:inst47|             ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14seg:inst47                  ;              ;
 ;    |bcd14segout3:inst57|         ; 44 (44)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14segout3:inst57              ;              ;
@@ -251,7 +251,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Apr 17 21:59:36 2018
+    Info: Processing started: Wed Apr 18 15:11:08 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file ula.bdf
@@ -324,14 +324,14 @@ Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "ibc4" is stuck at GND
     Warning (13410): Pin "ibg4" is stuck at VCC
 Info: Timing-Driven Synthesis is running
-Info: Implemented 189 device resources after synthesis - the final resource count might be different
+Info: Implemented 190 device resources after synthesis - the final resource count might be different
     Info: Implemented 13 input pins
-    Info: Implemented 51 output pins
+    Info: Implemented 52 output pins
     Info: Implemented 125 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 29 warnings
     Info: Peak virtual memory: 224 megabytes
-    Info: Processing ended: Tue Apr 17 21:59:39 2018
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Processing ended: Wed Apr 18 15:11:10 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 

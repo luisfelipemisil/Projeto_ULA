@@ -59,9 +59,9 @@ set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
 set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
 set_global_assignment -name BDF_FILE maior_que_sinal.bdf
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_location_assignment PIN_AB28 -to a
+set_location_assignment PIN_AC27 -to a
 set_location_assignment PIN_AC28 -to b
-set_location_assignment PIN_AC27 -to c
+set_location_assignment PIN_AB28 -to c
 set_location_assignment PIN_AD27 -to a0
 set_location_assignment PIN_AB27 -to a1
 set_location_assignment PIN_AC26 -to a2
@@ -125,4 +125,6 @@ set_location_assignment PIN_J16 -to SB2
 set_location_assignment PIN_G21 -to Sinal58
 set_global_assignment -name MISC_FILE "C:/Users/lfms/Documents/Projeto_ULA/ULA.dpf"
 set_global_assignment -name BDF_FILE "ULA_soma_14-04-19.bdf"
+set_global_assignment -name MISC_FILE "C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ULA.dpf"
+set_location_assignment PIN_W28 -to sinout
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

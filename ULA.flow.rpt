@@ -1,5 +1,5 @@
 Flow report for ULA
-Tue Apr 17 22:00:02 2018
+Wed Apr 18 15:11:32 2018
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +------------------------------------+----------------------------------------------+
-; Flow Status                        ; Successful - Tue Apr 17 22:00:02 2018        ;
+; Flow Status                        ; Successful - Wed Apr 18 15:11:32 2018        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; ULA                                          ;
 ; Top-level Entity Name              ; ULA                                          ;
@@ -50,7 +50,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 125 / 114,480 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 0 / 114,480 ( 0 % )                          ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 64 / 529 ( 12 % )                            ;
+; Total pins                         ; 65 / 529 ( 12 % )                            ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                        ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                              ;
@@ -63,26 +63,27 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/17/2018 21:59:37 ;
+; Start date & time ; 04/18/2018 15:11:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ULA                 ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                ;
-+------------------------------------+---------------------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                                       ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+---------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 93179164539297.152401317618560              ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 85                                          ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; 0                                           ; --            ; --          ; --             ;
-; MISC_FILE                          ; C:/Users/lfms/Documents/Projeto_ULA/ULA.dpf ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                        ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                                    ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                                      ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                         ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+---------------------------------------------+---------------+-------------+----------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                         ;
++------------------------------------+--------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                                                                ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+--------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 93179164539297.152407506811952                                                       ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                                                   ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                                                    ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/lfms/Documents/Projeto_ULA/ULA.dpf                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ULA.dpf ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                                                                 ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                                                             ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                                               ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                                                  ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+--------------------------------------------------------------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -90,11 +91,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 224 MB              ; 00:00:04                           ;
-; Fitter                    ; 00:00:14     ; 2.3                     ; 433 MB              ; 00:00:17                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 224 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:13     ; 2.3                     ; 434 MB              ; 00:00:17                           ;
 ; Assembler                 ; 00:00:07     ; 1.0                     ; 438 MB              ; 00:00:05                           ;
 ; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 325 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:25     ; --                      ; --                  ; 00:00:26                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:24                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -152,7 +152,7 @@ b3                           : AB24      : input  : 2.5 V             :         
 b1                           : AB25      : input  : 2.5 V             :         : 5         : Y              
 sa                           : AB26      : input  : 2.5 V             :         : 5         : Y              
 a1                           : AB27      : input  : 2.5 V             :         : 5         : Y              
-a                            : AB28      : input  : 2.5 V             :         : 5         : Y              
+c                            : AB28      : input  : 2.5 V             :         : 5         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC1       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC2       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC3       :        :                   :         : 2         :                
@@ -179,7 +179,7 @@ GND                          : AC23      : gnd    :                   :         
 b2                           : AC24      : input  : 2.5 V             :         : 5         : Y              
 b0                           : AC25      : input  : 2.5 V             :         : 5         : Y              
 a2                           : AC26      : input  : 2.5 V             :         : 5         : Y              
-c                            : AC27      : input  : 2.5 V             :         : 5         : Y              
+a                            : AC27      : input  : 2.5 V             :         : 5         : Y              
 b                            : AC28      : input  : 2.5 V             :         : 5         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AD1       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AD2       :        :                   :         : 2         :                
@@ -822,7 +822,7 @@ VCCIO5                       : W24       : power  :                   : 2.5V    
 oe2                          : W25       : output : 2.5 V             :         : 5         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W26       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W27       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W28       :        :                   :         : 5         :                
+sinout                       : W28       : output : 2.5 V             :         : 5         : Y              
 GND+                         : Y1        :        :                   :         : 2         :                
 GND+                         : Y2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 2         :                

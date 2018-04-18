@@ -1,5 +1,5 @@
 Assembler report for ULA
-Tue Apr 17 22:00:02 2018
+Wed Apr 18 15:11:32 2018
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/lfms/Documents/Projeto_ULA/ULA.sof
+  5. Assembler Device Options: C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ULA.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 17 22:00:02 2018 ;
+; Assembler Status      ; Successful - Wed Apr 18 15:11:32 2018 ;
 ; Revision Name         ; ULA                                   ;
 ; Top-level Entity Name ; ULA                                   ;
 ; Family                ; Cyclone IV E                          ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------------------+
-; Assembler Generated Files                   ;
-+---------------------------------------------+
-; File Name                                   ;
-+---------------------------------------------+
-; C:/Users/lfms/Documents/Projeto_ULA/ULA.sof ;
-+---------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                            ;
++--------------------------------------------------------------------------------------+
+; File Name                                                                            ;
++--------------------------------------------------------------------------------------+
+; C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ULA.sof ;
++--------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/lfms/Documents/Projeto_ULA/ULA.sof ;
-+----------------+------------------------------------------------------+
-; Option         ; Setting                                              ;
-+----------------+------------------------------------------------------+
-; Device         ; EP4CE115F29C7                                        ;
-; JTAG usercode  ; 0xFFFFFFFF                                           ;
-; Checksum       ; 0x0057BFA6                                           ;
-+----------------+------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/lfms/Downloads/Projeto_ULA-6aeca1855334ce2ed7cef8a5889fa9becd967b89/ULA.sof ;
++----------------+-----------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                       ;
++----------------+-----------------------------------------------------------------------------------------------+
+; Device         ; EP4CE115F29C7                                                                                 ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                                    ;
+; Checksum       ; 0x0057E475                                                                                    ;
++----------------+-----------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,13 +103,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Apr 17 21:59:56 2018
+    Info: Processing started: Wed Apr 18 15:11:26 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off ULA -c ULA
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 438 megabytes
-    Info: Processing ended: Tue Apr 17 22:00:02 2018
+    Info: Processing ended: Wed Apr 18 15:11:32 2018
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:05
 
