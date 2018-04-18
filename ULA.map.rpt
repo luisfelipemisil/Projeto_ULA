@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Sat Apr 14 15:47:19 2018
+Tue Apr 17 21:59:39 2018
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -40,13 +40,13 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +------------------------------------+----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Apr 14 15:47:19 2018        ;
+; Analysis & Synthesis Status        ; Successful - Tue Apr 17 21:59:39 2018        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; ULA                                          ;
 ; Top-level Entity Name              ; ULA                                          ;
 ; Family                             ; Cyclone IV E                                 ;
-; Total logic elements               ; 72                                           ;
-;     Total combinational functions  ; 72                                           ;
+; Total logic elements               ; 125                                          ;
+;     Total combinational functions  ; 125                                          ;
 ;     Dedicated logic registers      ; 0                                            ;
 ; Total registers                    ; 0                                            ;
 ; Total pins                         ; 64                                           ;
@@ -161,59 +161,72 @@ applicable agreement for further details.
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                ;
 +----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------+
 ; ULA.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/lfms/Documents/Projeto_ULA/ULA.bdf                 ;
+; comple2_para_5_bits.bdf          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/lfms/Documents/Projeto_ULA/comple2_para_5_bits.bdf ;
 ; bcd14seg.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/bcd14seg.bdf            ;
+; menor_que.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/menor_que.bdf           ;
+; igualigual.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/igualigual.bdf          ;
+; zero.bdf                         ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/zero.bdf                ;
 ; sistema.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/sistema.bdf             ;
 ; maior_que.bdf                    ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/maior_que.bdf           ;
-; mandachuva.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/mandachuva.bdf          ;
-; igualigual.bdf                   ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/igualigual.bdf          ;
 ; bcd14segout3.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/bcd14segout3.bdf        ;
 ; ulaula-soma-esquema.bdf          ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/ulaula-soma-esquema.bdf ;
+; zero1.bdf                        ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/zero1.bdf               ;
+; subcomp2.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/subcomp2.bdf            ;
 ; ulaand.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/ulaand.bdf              ;
 ; ulaxor.bdf                       ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/ulaxor.bdf              ;
 ; complemento2.bdf                 ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/lfms/Documents/Projeto_ULA/complemento2.bdf        ;
 +----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                       ;
-+---------------------------------------------+-------------------------------------+
-; Resource                                    ; Usage                               ;
-+---------------------------------------------+-------------------------------------+
-; Estimated Total logic elements              ; 72                                  ;
-;                                             ;                                     ;
-; Total combinational functions               ; 72                                  ;
-; Logic element usage by number of LUT inputs ;                                     ;
-;     -- 4 input functions                    ; 48                                  ;
-;     -- 3 input functions                    ; 17                                  ;
-;     -- <=2 input functions                  ; 7                                   ;
-;                                             ;                                     ;
-; Logic elements by mode                      ;                                     ;
-;     -- normal mode                          ; 68                                  ;
-;     -- arithmetic mode                      ; 4                                   ;
-;                                             ;                                     ;
-; Total registers                             ; 0                                   ;
-;     -- Dedicated logic registers            ; 0                                   ;
-;     -- I/O registers                        ; 0                                   ;
-;                                             ;                                     ;
-; I/O pins                                    ; 64                                  ;
-; Maximum fan-out node                        ; ulaula-soma-esquema:inst14|inst33~4 ;
-; Maximum fan-out                             ; 19                                  ;
-; Total fan-out                               ; 362                                 ;
-; Average fan-out                             ; 1.81                                ;
-+---------------------------------------------+-------------------------------------+
++----------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                          ;
++---------------------------------------------+------------------------+
+; Resource                                    ; Usage                  ;
++---------------------------------------------+------------------------+
+; Estimated Total logic elements              ; 125                    ;
+;                                             ;                        ;
+; Total combinational functions               ; 125                    ;
+; Logic element usage by number of LUT inputs ;                        ;
+;     -- 4 input functions                    ; 88                     ;
+;     -- 3 input functions                    ; 33                     ;
+;     -- <=2 input functions                  ; 4                      ;
+;                                             ;                        ;
+; Logic elements by mode                      ;                        ;
+;     -- normal mode                          ; 120                    ;
+;     -- arithmetic mode                      ; 5                      ;
+;                                             ;                        ;
+; Total registers                             ; 0                      ;
+;     -- Dedicated logic registers            ; 0                      ;
+;     -- I/O registers                        ; 0                      ;
+;                                             ;                        ;
+; I/O pins                                    ; 64                     ;
+; Maximum fan-out node                        ; subcomp2:inst1|inst9~0 ;
+; Maximum fan-out                             ; 23                     ;
+; Total fan-out                               ; 568                    ;
+; Average fan-out                             ; 2.25                   ;
++---------------------------------------------+------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                          ;
-+---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
-; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name             ; Library Name ;
-+---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
-; |ULA                            ; 72 (14)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 64   ; 0            ; |ULA                            ; work         ;
-;    |bcd14seg:inst20|            ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14seg:inst20            ;              ;
-;    |bcd14seg:inst47|            ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14seg:inst47            ;              ;
-;    |bcd14segout3:inst57|        ; 35 (35)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14segout3:inst57        ;              ;
-;    |ulaula-soma-esquema:inst14| ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|ulaula-soma-esquema:inst14 ;              ;
-+---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                 ;
++----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
+; Compilation Hierarchy Node       ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                   ; Library Name ;
++----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
+; |ULA                             ; 125 (38)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 64   ; 0            ; |ULA                                  ; work         ;
+;    |bcd14seg:inst20|             ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14seg:inst20                  ;              ;
+;    |bcd14seg:inst47|             ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14seg:inst47                  ;              ;
+;    |bcd14segout3:inst57|         ; 44 (44)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|bcd14segout3:inst57              ;              ;
+;    |comple2_para_5_bits:inst3|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|comple2_para_5_bits:inst3        ;              ;
+;    |comple2_para_5_bits:inst5|   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|comple2_para_5_bits:inst5        ;              ;
+;    |comple2_para_5_bits:inst6|   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|comple2_para_5_bits:inst6        ;              ;
+;    |complemento2:inst17|         ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|complemento2:inst17              ;              ;
+;    |menor_que:inst4|             ; 8 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|menor_que:inst4                  ;              ;
+;       |igualigual:inst1|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|menor_que:inst4|igualigual:inst1 ;              ;
+;       |zero:inst3|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|menor_que:inst4|zero:inst3       ;              ;
+;    |sistema:inst|                ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|sistema:inst                     ;              ;
+;    |subcomp2:inst1|              ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|subcomp2:inst1                   ;              ;
+;    |ulaula-soma-esquema:inst110| ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA|ulaula-soma-esquema:inst110      ;              ;
++----------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -238,7 +251,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sat Apr 14 15:47:17 2018
+    Info: Processing started: Tue Apr 17 21:59:36 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file ula.bdf
@@ -251,29 +264,45 @@ Info: Found 1 design units, including 1 entities, in source file comple2_para_5_
     Info: Found entity 1: comple2_para_5_bits
 Info: Found 1 design units, including 1 entities, in source file maior_que_sinal.bdf
     Info: Found entity 1: maior_que_sinal
+Info: Found 1 design units, including 1 entities, in source file ula_soma_14-04-19.bdf
+    Info: Found entity 1: ULA_soma_14-04-19
 Info: Elaborating entity "ULA" for the top level hierarchy
-Warning: Primitive "NOT" of instance "inst42" not used
+Warning: Block or symbol "comple2_para_5_bits" of instance "inst6" overlaps another block or symbol
 Warning: Using design file bcd14seg.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: bcd14seg
 Info: Elaborating entity "bcd14seg" for hierarchy "bcd14seg:inst20"
+Warning: Using design file menor_que.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: menor_que
+Info: Elaborating entity "menor_que" for hierarchy "menor_que:inst4"
+Warning: Primitive "AND3" of instance "inst35" not used
+Warning: Primitive "NOT" of instance "inst36" not used
+Warning: Primitive "OR2" of instance "inst37" not used
+Warning: Primitive "AND3" of instance "inst38" not used
+Warning: Using design file igualigual.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: igualigual
+Info: Elaborating entity "igualigual" for hierarchy "menor_que:inst4|igualigual:inst1"
+Warning: Using design file zero.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: zero
+Info: Elaborating entity "zero" for hierarchy "menor_que:inst4|zero:inst3"
 Warning: Using design file sistema.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: sistema
 Info: Elaborating entity "sistema" for hierarchy "sistema:inst"
 Warning: Using design file maior_que.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: maior_que
 Info: Elaborating entity "maior_que" for hierarchy "maior_que:inst34"
-Warning: Using design file mandachuva.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info: Found entity 1: mandachuva
-Info: Elaborating entity "mandachuva" for hierarchy "mandachuva:inst37"
-Warning: Using design file igualigual.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info: Found entity 1: igualigual
-Info: Elaborating entity "igualigual" for hierarchy "igualigual:inst18"
 Warning: Using design file bcd14segout3.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: bcd14segout3
 Info: Elaborating entity "bcd14segout3" for hierarchy "bcd14segout3:inst57"
+Info: Elaborating entity "comple2_para_5_bits" for hierarchy "comple2_para_5_bits:inst3"
 Warning: Using design file ulaula-soma-esquema.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: ulaula-soma-esquema
-Info: Elaborating entity "ULAULA-SOMA-esquema" for hierarchy "ULAULA-SOMA-esquema:inst14"
+Info: Elaborating entity "ulaula-soma-esquema" for hierarchy "ulaula-soma-esquema:inst110"
+Warning: Using design file zero1.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: zero1
+Info: Elaborating entity "zero1" for hierarchy "zero1:inst114"
+Warning: Using design file subcomp2.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info: Found entity 1: subcomp2
+Info: Elaborating entity "subComp2" for hierarchy "subComp2:inst1"
 Warning: Using design file ulaand.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: ulaand
 Info: Elaborating entity "ULAand" for hierarchy "ULAand:inst68"
@@ -283,10 +312,10 @@ Info: Elaborating entity "ULAxor" for hierarchy "ULAxor:inst69"
 Warning: Using design file complemento2.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: complemento2
 Info: Elaborating entity "complemento2" for hierarchy "complemento2:inst17"
-Warning: Primitive "AND2" of instance "inst44" not used
-Warning: Primitive "AND2" of instance "inst45" not used
-Warning: Primitive "AND2" of instance "inst46" not used
-Warning: Primitive "OR3" of instance "inst55" not used
+Warning: Primitive "AND2" of instance "inst26" not used
+Warning: Primitive "AND2" of instance "inst27" not used
+Warning: Primitive "AND2" of instance "inst28" not used
+Warning: Primitive "OR3" of instance "inst29" not used
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "iab2" is stuck at GND
     Warning (13410): Pin "iac2" is stuck at GND
@@ -294,17 +323,15 @@ Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "ibb4" is stuck at GND
     Warning (13410): Pin "ibc4" is stuck at GND
     Warning (13410): Pin "ibg4" is stuck at VCC
-    Warning (13410): Pin "pin_name" is stuck at VCC
-    Warning (13410): Pin "ob2" is stuck at GND
 Info: Timing-Driven Synthesis is running
-Info: Implemented 136 device resources after synthesis - the final resource count might be different
+Info: Implemented 189 device resources after synthesis - the final resource count might be different
     Info: Implemented 13 input pins
     Info: Implemented 51 output pins
-    Info: Implemented 72 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Implemented 125 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 29 warnings
     Info: Peak virtual memory: 224 megabytes
-    Info: Processing ended: Sat Apr 14 15:47:19 2018
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Processing ended: Tue Apr 17 21:59:39 2018
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:05
 
 

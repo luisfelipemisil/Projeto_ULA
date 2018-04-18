@@ -1,5 +1,5 @@
 Fitter report for ULA-16-04-18a
-Tue Apr 17 21:21:03 2018
+Tue Apr 17 21:57:04 2018
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -65,15 +65,15 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +------------------------------------+----------------------------------------------+
-; Fitter Status                      ; Successful - Tue Apr 17 21:21:03 2018        ;
+; Fitter Status                      ; Successful - Tue Apr 17 21:57:04 2018        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; ULA-16-04-18a                                ;
 ; Top-level Entity Name              ; ULA-16-04-18a                                ;
 ; Family                             ; Cyclone IV E                                 ;
 ; Device                             ; EP4CE115F29C7                                ;
 ; Timing Models                      ; Preliminary                                  ;
-; Total logic elements               ; 104 / 114,480 ( < 1 % )                      ;
-;     Total combinational functions  ; 104 / 114,480 ( < 1 % )                      ;
+; Total logic elements               ; 125 / 114,480 ( < 1 % )                      ;
+;     Total combinational functions  ; 125 / 114,480 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 0 / 114,480 ( 0 % )                          ;
 ; Total registers                    ; 0                                            ;
 ; Total pins                         ; 64 / 529 ( 12 % )                            ;
@@ -153,12 +153,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 2.57        ;
+; Average used               ; 2.26        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     1 processor            ; 100.0%      ;
-;     2-4 processors         ;  21.4%      ;
+;     2-4 processors         ;  15.4%      ;
 +----------------------------+-------------+
 
 
@@ -247,8 +247,8 @@ applicable agreement for further details.
 ;     -- Achieved         ; 0 / 0 ( 0.00 % )   ;
 ;                         ;                    ;
 ; Placement               ;                    ;
-;     -- Requested        ; 0 / 243 ( 0.00 % ) ;
-;     -- Achieved         ; 0 / 243 ( 0.00 % ) ;
+;     -- Requested        ; 0 / 264 ( 0.00 % ) ;
+;     -- Achieved         ; 0 / 264 ( 0.00 % ) ;
 ;                         ;                    ;
 ; Routing (by Connection) ;                    ;
 ;     -- Requested        ; 0 / 0 ( 0.00 % )   ;
@@ -270,7 +270,7 @@ applicable agreement for further details.
 +----------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +----------------+---------+-------------------+-------------------------+-------------------+
-; Top            ; 243     ; 0                 ; N/A                     ; Source File       ;
+; Top            ; 264     ; 0                 ; N/A                     ; Source File       ;
 +----------------+---------+-------------------+-------------------------+-------------------+
 
 
@@ -285,19 +285,19 @@ The pin-out file can be found in C:/Users/lfms/Documents/Projeto_ULA/ULA-16-04-1
 +---------------------------------------------+-------------------------+
 ; Resource                                    ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Total logic elements                        ; 104 / 114,480 ( < 1 % ) ;
-;     -- Combinational with no register       ; 104                     ;
+; Total logic elements                        ; 125 / 114,480 ( < 1 % ) ;
+;     -- Combinational with no register       ; 125                     ;
 ;     -- Register only                        ; 0                       ;
 ;     -- Combinational with a register        ; 0                       ;
 ;                                             ;                         ;
 ; Logic element usage by number of LUT inputs ;                         ;
-;     -- 4 input functions                    ; 71                      ;
-;     -- 3 input functions                    ; 29                      ;
+;     -- 4 input functions                    ; 88                      ;
+;     -- 3 input functions                    ; 33                      ;
 ;     -- <=2 input functions                  ; 4                       ;
 ;     -- Register only                        ; 0                       ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
-;     -- normal mode                          ; 99                      ;
+;     -- normal mode                          ; 120                     ;
 ;     -- arithmetic mode                      ; 5                       ;
 ;                                             ;                         ;
 ; Total registers*                            ; 0 / 117,053 ( 0 % )     ;
@@ -323,12 +323,12 @@ The pin-out file can be found in C:/Users/lfms/Documents/Projeto_ULA/ULA-16-04-1
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )           ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%            ;
 ; Peak interconnect usage (total/H/V)         ; 1% / 1% / 2%            ;
-; Maximum fan-out node                        ; b0~input                ;
-; Maximum fan-out                             ; 18                      ;
-; Highest non-global fan-out signal           ; b0~input                ;
-; Highest non-global fan-out                  ; 18                      ;
-; Total fan-out                               ; 493                     ;
-; Average fan-out                             ; 2.04                    ;
+; Maximum fan-out node                        ; subcomp2:inst1|inst9~0  ;
+; Maximum fan-out                             ; 23                      ;
+; Highest non-global fan-out signal           ; subcomp2:inst1|inst9~0  ;
+; Highest non-global fan-out                  ; 23                      ;
+; Total fan-out                               ; 573                     ;
+; Average fan-out                             ; 2.18                    ;
 +---------------------------------------------+-------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -339,19 +339,19 @@ The pin-out file can be found in C:/Users/lfms/Documents/Projeto_ULA/ULA-16-04-1
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination Control Block ; Location assigned by ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
-; a    ; AB28  ; 5        ; 115          ; 17           ; 0            ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; a0   ; AD27  ; 5        ; 115          ; 13           ; 7            ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; a1   ; AB27  ; 5        ; 115          ; 18           ; 7            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; a2   ; AC26  ; 5        ; 115          ; 11           ; 7            ; 14                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; a    ; AC27  ; 5        ; 115          ; 15           ; 7            ; 22                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; a0   ; AD27  ; 5        ; 115          ; 13           ; 7            ; 18                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; a1   ; AB27  ; 5        ; 115          ; 18           ; 7            ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; a2   ; AC26  ; 5        ; 115          ; 11           ; 7            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; a3   ; AD26  ; 5        ; 115          ; 10           ; 0            ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; b    ; AC28  ; 5        ; 115          ; 14           ; 0            ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; b0   ; AC25  ; 5        ; 115          ; 4            ; 21           ; 18                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; b    ; AC28  ; 5        ; 115          ; 14           ; 0            ; 22                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; b0   ; AC25  ; 5        ; 115          ; 4            ; 21           ; 19                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; b1   ; AB25  ; 5        ; 115          ; 16           ; 7            ; 17                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; b2   ; AC24  ; 5        ; 115          ; 4            ; 14           ; 15                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; b3   ; AB24  ; 5        ; 115          ; 5            ; 14           ; 17                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; c    ; AC27  ; 5        ; 115          ; 15           ; 7            ; 12                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; sa   ; AB26  ; 5        ; 115          ; 15           ; 0            ; 13                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; sb   ; AB23  ; 5        ; 115          ; 7            ; 14           ; 6                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; b3   ; AB24  ; 5        ; 115          ; 5            ; 14           ; 16                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; c    ; AB28  ; 5        ; 115          ; 17           ; 0            ; 9                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; sa   ; AB26  ; 5        ; 115          ; 15           ; 0            ; 11                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; sb   ; AB23  ; 5        ; 115          ; 7            ; 14           ; 5                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 +------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 
 
@@ -537,7 +537,7 @@ The pin-out file can be found in C:/Users/lfms/Documents/Projeto_ULA/ULA-16-04-1
 ; AB25     ; 292        ; 5        ; b1                                                        ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AB26     ; 291        ; 5        ; sa                                                        ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AB27     ; 296        ; 5        ; a1                                                        ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AB28     ; 295        ; 5        ; a                                                         ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AB28     ; 295        ; 5        ; c                                                         ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC1      ; 94         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AC2      ; 93         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AC3      ; 95         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -564,7 +564,7 @@ The pin-out file can be found in C:/Users/lfms/Documents/Projeto_ULA/ULA-16-04-1
 ; AC24     ; 273        ; 5        ; b2                                                        ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC25     ; 272        ; 5        ; b0                                                        ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC26     ; 282        ; 5        ; a2                                                        ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; AC27     ; 290        ; 5        ; c                                                         ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; AC27     ; 290        ; 5        ; a                                                         ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC28     ; 289        ; 5        ; b                                                         ; input  ; 2.5 V        ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AD1      ; 98         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
 ; AD2      ; 97         ; 2        ; RESERVED_INPUT_WITH_WEAK_PULLUP                           ;        ;              ;         ; Row I/O    ;                 ; no       ; On           ;
@@ -1295,18 +1295,18 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-------------------------------------------------+--------------+
 ; Compilation Hierarchy Node       ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                             ; Library Name ;
 +----------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-------------------------------------------------+--------------+
-; |ULA-16-04-18a                   ; 104 (37)    ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 64   ; 0            ; 104 (37)     ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a                                  ; work         ;
+; |ULA-16-04-18a                   ; 125 (38)    ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 64   ; 0            ; 125 (38)     ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a                                  ; work         ;
 ;    |bcd14seg:inst20|             ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|bcd14seg:inst20                  ;              ;
 ;    |bcd14seg:inst47|             ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|bcd14seg:inst47                  ;              ;
-;    |bcd14segout3:inst57|         ; 27 (27)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 27 (27)      ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|bcd14segout3:inst57              ;              ;
+;    |bcd14segout3:inst57|         ; 44 (44)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 44 (44)      ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|bcd14segout3:inst57              ;              ;
 ;    |comple2_para_5_bits:inst3|   ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|comple2_para_5_bits:inst3        ;              ;
 ;    |comple2_para_5_bits:inst5|   ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|comple2_para_5_bits:inst5        ;              ;
-;    |comple2_para_5_bits:inst6|   ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|comple2_para_5_bits:inst6        ;              ;
-;    |complemento2:inst17|         ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|complemento2:inst17              ;              ;
-;    |maior_que:inst34|            ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|maior_que:inst34                 ;              ;
-;    |menor_que:inst4|             ; 5 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|menor_que:inst4                  ;              ;
+;    |comple2_para_5_bits:inst6|   ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|comple2_para_5_bits:inst6        ;              ;
+;    |complemento2:inst17|         ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|complemento2:inst17              ;              ;
+;    |menor_que:inst4|             ; 8 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (3)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|menor_que:inst4                  ;              ;
 ;       |igualigual:inst1|         ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|menor_que:inst4|igualigual:inst1 ;              ;
-;    |sistema:inst|                ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|sistema:inst                     ;              ;
+;       |zero:inst3|               ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|menor_que:inst4|zero:inst3       ;              ;
+;    |sistema:inst|                ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|sistema:inst                     ;              ;
 ;    |subcomp2:inst1|              ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|subcomp2:inst1                   ;              ;
 ;    |ulaula-soma-esquema:inst110| ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; |ULA-16-04-18a|ulaula-soma-esquema:inst110      ;              ;
 +----------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-------------------------------------------------+--------------+
@@ -1371,17 +1371,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SB2      ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; a3       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
 ; a2       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
-; a1       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
-; a0       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
+; a1       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
+; a0       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
 ; b3       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
 ; b2       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
 ; b1       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
-; b0       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
-; sa       ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
+; b0       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
+; sa       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
 ; sb       ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
-; c        ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
-; b        ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
+; c        ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
 ; a        ; Input    ; --            ; (6) 2427 ps   ; --                    ; --  ; --   ;
+; b        ; Input    ; (6) 2427 ps   ; --            ; --                    ; --  ; --   ;
 +----------+----------+---------------+---------------+-----------------------+-----+------+
 
 
@@ -1400,12 +1400,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - bcd14seg:inst20|inst33~0                  ; 1                 ; 6       ;
 ;      - bcd14seg:inst20|inst60                    ; 1                 ; 6       ;
 ;      - menor_que:inst4|igualigual:inst1|inst10~0 ; 1                 ; 6       ;
-;      - inst56~2                                  ; 1                 ; 6       ;
+;      - menor_que:inst4|inst68~1                  ; 1                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~1       ; 1                 ; 6       ;
 ;      - inst31~0                                  ; 1                 ; 6       ;
 ;      - comple2_para_5_bits:inst5|inst53~0        ; 1                 ; 6       ;
 ;      - inst11                                    ; 1                 ; 6       ;
-;      - inst87                                    ; 1                 ; 6       ;
-;      - inst82~0                                  ; 1                 ; 6       ;
+;      - inst71~1                                  ; 1                 ; 6       ;
 ; a2                                               ;                   ;         ;
 ;      - bcd14seg:inst20|inst25~0                  ; 1                 ; 6       ;
 ;      - bcd14seg:inst20|inst26~0                  ; 1                 ; 6       ;
@@ -1416,44 +1416,48 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - bcd14seg:inst20|inst33~0                  ; 1                 ; 6       ;
 ;      - bcd14seg:inst20|inst60                    ; 1                 ; 6       ;
 ;      - menor_que:inst4|igualigual:inst1|inst10~0 ; 1                 ; 6       ;
-;      - menor_que:inst4|inst67~1                  ; 1                 ; 6       ;
+;      - menor_que:inst4|inst68~0                  ; 1                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~0       ; 1                 ; 6       ;
 ;      - comple2_para_5_bits:inst5|inst21~0        ; 1                 ; 6       ;
 ;      - inst10~0                                  ; 1                 ; 6       ;
 ;      - inst10~1                                  ; 1                 ; 6       ;
 ;      - inst70~1                                  ; 1                 ; 6       ;
 ; a1                                               ;                   ;         ;
-;      - bcd14seg:inst20|inst25~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst26~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst34~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst29~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst31~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst32~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst33~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst60                    ; 0                 ; 6       ;
-;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 0                 ; 6       ;
-;      - menor_que:inst4|inst67~0                  ; 0                 ; 6       ;
-;      - comple2_para_5_bits:inst5|inst21~0        ; 0                 ; 6       ;
-;      - inst10~0                                  ; 0                 ; 6       ;
-;      - inst9~0                                   ; 0                 ; 6       ;
-;      - inst85                                    ; 0                 ; 6       ;
-;      - inst74~0                                  ; 0                 ; 6       ;
+;      - bcd14seg:inst20|inst25~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst26~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst34~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst29~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst31~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst32~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst33~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst60                    ; 1                 ; 6       ;
+;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 1                 ; 6       ;
+;      - menor_que:inst4|inst67~0                  ; 1                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~0       ; 1                 ; 6       ;
+;      - comple2_para_5_bits:inst5|inst21~0        ; 1                 ; 6       ;
+;      - inst10~0                                  ; 1                 ; 6       ;
+;      - inst9~0                                   ; 1                 ; 6       ;
+;      - inst85                                    ; 1                 ; 6       ;
+;      - inst74~0                                  ; 1                 ; 6       ;
 ; a0                                               ;                   ;         ;
-;      - bcd14seg:inst20|inst25~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst26~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst34~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst29~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst31~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst32~0                  ; 0                 ; 6       ;
-;      - bcd14seg:inst20|inst33~0                  ; 0                 ; 6       ;
-;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 0                 ; 6       ;
-;      - menor_que:inst4|inst67~0                  ; 0                 ; 6       ;
-;      - comple2_para_5_bits:inst5|inst21~0        ; 0                 ; 6       ;
-;      - inst10~0                                  ; 0                 ; 6       ;
-;      - ulaula-soma-esquema:inst110|inst9         ; 0                 ; 6       ;
-;      - inst9~0                                   ; 0                 ; 6       ;
-;      - ulaula-soma-esquema:inst110|inst~0        ; 0                 ; 6       ;
-;      - inst66~0                                  ; 0                 ; 6       ;
-;      - inst66~1                                  ; 0                 ; 6       ;
+;      - bcd14seg:inst20|inst25~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst26~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst34~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst29~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst31~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst32~0                  ; 1                 ; 6       ;
+;      - bcd14seg:inst20|inst33~0                  ; 1                 ; 6       ;
+;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 1                 ; 6       ;
+;      - menor_que:inst4|inst67~0                  ; 1                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~1       ; 1                 ; 6       ;
+;      - comple2_para_5_bits:inst5|inst21~0        ; 1                 ; 6       ;
+;      - inst10~0                                  ; 1                 ; 6       ;
+;      - ulaula-soma-esquema:inst110|inst9         ; 1                 ; 6       ;
+;      - inst9~0                                   ; 1                 ; 6       ;
+;      - ulaula-soma-esquema:inst110|inst~0        ; 1                 ; 6       ;
+;      - inst84                                    ; 1                 ; 6       ;
+;      - inst66~0                                  ; 1                 ; 6       ;
+;      - inst95~2                                  ; 1                 ; 6       ;
 ; b3                                               ;                   ;         ;
 ;      - bcd14seg:inst47|inst25~0                  ; 0                 ; 6       ;
 ;      - bcd14seg:inst47|inst26~0                  ; 0                 ; 6       ;
@@ -1464,14 +1468,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - bcd14seg:inst47|inst33~0                  ; 0                 ; 6       ;
 ;      - bcd14seg:inst47|inst60                    ; 0                 ; 6       ;
 ;      - menor_que:inst4|igualigual:inst1|inst10~0 ; 0                 ; 6       ;
-;      - maior_que:inst34|inst69~0                 ; 0                 ; 6       ;
-;      - inst56~2                                  ; 0                 ; 6       ;
+;      - menor_que:inst4|inst68~1                  ; 0                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~1       ; 0                 ; 6       ;
 ;      - inst30~0                                  ; 0                 ; 6       ;
 ;      - comple2_para_5_bits:inst6|inst53~0        ; 0                 ; 6       ;
 ;      - inst16                                    ; 0                 ; 6       ;
-;      - inst87                                    ; 0                 ; 6       ;
 ;      - inst71~0                                  ; 0                 ; 6       ;
-;      - inst71                                    ; 0                 ; 6       ;
+;      - inst71~1                                  ; 0                 ; 6       ;
 ; b2                                               ;                   ;         ;
 ;      - bcd14seg:inst47|inst25~0                  ; 0                 ; 6       ;
 ;      - bcd14seg:inst47|inst26~0                  ; 0                 ; 6       ;
@@ -1482,9 +1485,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - bcd14seg:inst47|inst33~0                  ; 0                 ; 6       ;
 ;      - bcd14seg:inst47|inst60                    ; 0                 ; 6       ;
 ;      - menor_que:inst4|igualigual:inst1|inst10~0 ; 0                 ; 6       ;
-;      - maior_que:inst34|inst69~0                 ; 0                 ; 6       ;
-;      - menor_que:inst4|inst67~1                  ; 0                 ; 6       ;
-;      - comple2_para_5_bits:inst6|inst21~0        ; 0                 ; 6       ;
+;      - menor_que:inst4|inst68~0                  ; 0                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~0       ; 0                 ; 6       ;
+;      - complemento2:inst17|inst21~0              ; 0                 ; 6       ;
 ;      - comple2_para_5_bits:inst6|inst41~0        ; 0                 ; 6       ;
 ;      - inst15                                    ; 0                 ; 6       ;
 ;      - inst70~1                                  ; 0                 ; 6       ;
@@ -1498,101 +1501,108 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - bcd14seg:inst47|inst33~0                  ; 1                 ; 6       ;
 ;      - bcd14seg:inst47|inst60                    ; 1                 ; 6       ;
 ;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 1                 ; 6       ;
-;      - maior_que:inst34|inst69~0                 ; 1                 ; 6       ;
 ;      - menor_que:inst4|inst67~0                  ; 1                 ; 6       ;
-;      - comple2_para_5_bits:inst6|inst21~0        ; 1                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~0       ; 1                 ; 6       ;
+;      - complemento2:inst17|inst21~0              ; 1                 ; 6       ;
 ;      - comple2_para_5_bits:inst6|inst41~0        ; 1                 ; 6       ;
 ;      - inst13                                    ; 1                 ; 6       ;
 ;      - inst85                                    ; 1                 ; 6       ;
 ;      - inst67~0                                  ; 1                 ; 6       ;
 ;      - inst67~1                                  ; 1                 ; 6       ;
 ; b0                                               ;                   ;         ;
-;      - bcd14seg:inst47|inst25~0                  ; 1                 ; 6       ;
-;      - bcd14seg:inst47|inst26~0                  ; 1                 ; 6       ;
-;      - bcd14seg:inst47|inst34~0                  ; 1                 ; 6       ;
-;      - bcd14seg:inst47|inst29~0                  ; 1                 ; 6       ;
-;      - bcd14seg:inst47|inst31~0                  ; 1                 ; 6       ;
-;      - bcd14seg:inst47|inst32~0                  ; 1                 ; 6       ;
-;      - bcd14seg:inst47|inst33~0                  ; 1                 ; 6       ;
-;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 1                 ; 6       ;
-;      - maior_que:inst34|inst69~0                 ; 1                 ; 6       ;
-;      - menor_que:inst4|inst67~0                  ; 1                 ; 6       ;
-;      - comple2_para_5_bits:inst6|inst21~0        ; 1                 ; 6       ;
-;      - comple2_para_5_bits:inst6|inst41~0        ; 1                 ; 6       ;
-;      - ulaula-soma-esquema:inst110|inst9         ; 1                 ; 6       ;
-;      - inst13                                    ; 1                 ; 6       ;
-;      - ulaula-soma-esquema:inst110|inst~0        ; 1                 ; 6       ;
-;      - inst66~0                                  ; 1                 ; 6       ;
-;      - inst66~2                                  ; 1                 ; 6       ;
-;      - inst67~0                                  ; 1                 ; 6       ;
+;      - bcd14seg:inst47|inst25~0                  ; 0                 ; 6       ;
+;      - bcd14seg:inst47|inst26~0                  ; 0                 ; 6       ;
+;      - bcd14seg:inst47|inst34~0                  ; 0                 ; 6       ;
+;      - bcd14seg:inst47|inst29~0                  ; 0                 ; 6       ;
+;      - bcd14seg:inst47|inst31~0                  ; 0                 ; 6       ;
+;      - bcd14seg:inst47|inst32~0                  ; 0                 ; 6       ;
+;      - bcd14seg:inst47|inst33~0                  ; 0                 ; 6       ;
+;      - menor_que:inst4|igualigual:inst1|inst10~1 ; 0                 ; 6       ;
+;      - menor_que:inst4|inst67~0                  ; 0                 ; 6       ;
+;      - menor_que:inst4|zero:inst3|inst10~1       ; 0                 ; 6       ;
+;      - complemento2:inst17|inst21~0              ; 0                 ; 6       ;
+;      - comple2_para_5_bits:inst6|inst41~0        ; 0                 ; 6       ;
+;      - ulaula-soma-esquema:inst110|inst9         ; 0                 ; 6       ;
+;      - inst13                                    ; 0                 ; 6       ;
+;      - ulaula-soma-esquema:inst110|inst~0        ; 0                 ; 6       ;
+;      - inst84                                    ; 0                 ; 6       ;
+;      - inst66~1                                  ; 0                 ; 6       ;
+;      - inst67~0                                  ; 0                 ; 6       ;
+;      - inst95~2                                  ; 0                 ; 6       ;
 ; sa                                               ;                   ;         ;
-;      - menor_que:inst4|igualigual:inst1|inst10~2 ; 1                 ; 6       ;
-;      - inst56~1                                  ; 1                 ; 6       ;
-;      - inst56~3                                  ; 1                 ; 6       ;
-;      - inst31~0                                  ; 1                 ; 6       ;
-;      - comple2_para_5_bits:inst5|inst53~0        ; 1                 ; 6       ;
-;      - inst11                                    ; 1                 ; 6       ;
-;      - inst10~1                                  ; 1                 ; 6       ;
-;      - ulaula-soma-esquema:inst110|inst9         ; 1                 ; 6       ;
-;      - inst9~0                                   ; 1                 ; 6       ;
-;      - ulaula-soma-esquema:inst110|inst~0        ; 1                 ; 6       ;
-;      - inst83~0                                  ; 1                 ; 6       ;
-;      - inst72~0                                  ; 1                 ; 6       ;
-;      - Sa2~output                                ; 1                 ; 6       ;
+;      - menor_que:inst4|igualigual:inst1|inst10~2 ; 0                 ; 6       ;
+;      - inst56~0                                  ; 0                 ; 6       ;
+;      - inst31~0                                  ; 0                 ; 6       ;
+;      - comple2_para_5_bits:inst5|inst53~0        ; 0                 ; 6       ;
+;      - inst11                                    ; 0                 ; 6       ;
+;      - inst10~1                                  ; 0                 ; 6       ;
+;      - ulaula-soma-esquema:inst110|inst9         ; 0                 ; 6       ;
+;      - inst9~0                                   ; 0                 ; 6       ;
+;      - ulaula-soma-esquema:inst110|inst~0        ; 0                 ; 6       ;
+;      - inst72~2                                  ; 0                 ; 6       ;
+;      - Sa2~output                                ; 0                 ; 6       ;
 ; sb                                               ;                   ;         ;
 ;      - menor_que:inst4|igualigual:inst1|inst10~2 ; 0                 ; 6       ;
-;      - inst56~1                                  ; 0                 ; 6       ;
-;      - inst56~3                                  ; 0                 ; 6       ;
-;      - subcomp2:inst1|inst9~0                    ; 0                 ; 6       ;
-;      - inst72~0                                  ; 0                 ; 6       ;
+;      - inst56~0                                  ; 0                 ; 6       ;
+;      - subcomp2:inst1|inst9~1                    ; 0                 ; 6       ;
+;      - inst72~2                                  ; 0                 ; 6       ;
 ;      - SB2~output                                ; 0                 ; 6       ;
 ; c                                                ;                   ;         ;
-;      - inst29                                    ; 1                 ; 6       ;
-;      - inst56~0                                  ; 1                 ; 6       ;
-;      - inst56~1                                  ; 1                 ; 6       ;
-;      - inst56~3                                  ; 1                 ; 6       ;
-;      - subcomp2:inst1|inst9~0                    ; 1                 ; 6       ;
-;      - sistema:inst|Usoma~0                      ; 1                 ; 6       ;
-;      - inst66~1                                  ; 1                 ; 6       ;
-;      - complemento2:inst17|inst50~0              ; 1                 ; 6       ;
-;      - inst74~0                                  ; 1                 ; 6       ;
-;      - inst70~0                                  ; 1                 ; 6       ;
-;      - inst82~0                                  ; 1                 ; 6       ;
-;      - inst83~0                                  ; 1                 ; 6       ;
-; b                                                ;                   ;         ;
-;      - inst29                                    ; 0                 ; 6       ;
-;      - inst56~5                                  ; 0                 ; 6       ;
-;      - subcomp2:inst1|inst9~0                    ; 0                 ; 6       ;
+;      - inst56~0                                  ; 0                 ; 6       ;
+;      - inst29~0                                  ; 0                 ; 6       ;
 ;      - subcomp2:inst1|inst9~1                    ; 0                 ; 6       ;
 ;      - sistema:inst|Usoma~0                      ; 0                 ; 6       ;
-;      - inst66~1                                  ; 0                 ; 6       ;
+;      - inst66~0                                  ; 0                 ; 6       ;
 ;      - complemento2:inst17|inst50~0              ; 0                 ; 6       ;
 ;      - inst74~0                                  ; 0                 ; 6       ;
 ;      - inst70~0                                  ; 0                 ; 6       ;
-;      - inst82~0                                  ; 0                 ; 6       ;
-;      - inst83~0                                  ; 0                 ; 6       ;
-;      - bcd14segout3:inst57|inst92~3              ; 0                 ; 6       ;
-;      - bcd14segout3:inst57|inst94~3              ; 0                 ; 6       ;
-;      - bcd14segout3:inst57|inst97~3              ; 0                 ; 6       ;
-;      - bcd14segout3:inst57|inst101               ; 0                 ; 6       ;
-;      - bcd14segout3:inst57|inst102               ; 0                 ; 6       ;
+;      - sistema:inst|Usoma~1                      ; 0                 ; 6       ;
 ; a                                                ;                   ;         ;
-;      - inst29                                    ; 1                 ; 6       ;
-;      - inst56~5                                  ; 1                 ; 6       ;
+;      - inst56~1                                  ; 1                 ; 6       ;
+;      - inst29~0                                  ; 1                 ; 6       ;
 ;      - subcomp2:inst1|inst9~0                    ; 1                 ; 6       ;
 ;      - subcomp2:inst1|inst9~1                    ; 1                 ; 6       ;
 ;      - sistema:inst|Usoma~0                      ; 1                 ; 6       ;
-;      - inst66~1                                  ; 1                 ; 6       ;
+;      - inst66~0                                  ; 1                 ; 6       ;
 ;      - complemento2:inst17|inst50~0              ; 1                 ; 6       ;
 ;      - inst74~0                                  ; 1                 ; 6       ;
 ;      - inst70~0                                  ; 1                 ; 6       ;
-;      - inst82~0                                  ; 1                 ; 6       ;
-;      - inst83~0                                  ; 1                 ; 6       ;
+;      - sistema:inst|Usoma~1                      ; 1                 ; 6       ;
+;      - inst100                                   ; 1                 ; 6       ;
+;      - bcd14segout3:inst57|inst30~6              ; 1                 ; 6       ;
+;      - inst95~2                                  ; 1                 ; 6       ;
+;      - inst99~2                                  ; 1                 ; 6       ;
+;      - inst97~2                                  ; 1                 ; 6       ;
+;      - bcd14segout3:inst57|inst91~5              ; 1                 ; 6       ;
 ;      - bcd14segout3:inst57|inst92~3              ; 1                 ; 6       ;
 ;      - bcd14segout3:inst57|inst94~3              ; 1                 ; 6       ;
-;      - bcd14segout3:inst57|inst97~3              ; 1                 ; 6       ;
-;      - bcd14segout3:inst57|inst101               ; 1                 ; 6       ;
-;      - bcd14segout3:inst57|inst102               ; 1                 ; 6       ;
+;      - bcd14segout3:inst57|inst96~5              ; 1                 ; 6       ;
+;      - bcd14segout3:inst57|inst101~3             ; 1                 ; 6       ;
+;      - bcd14segout3:inst57|inst102~3             ; 1                 ; 6       ;
+;      - inst72                                    ; 1                 ; 6       ;
+; b                                                ;                   ;         ;
+;      - inst56~1                                  ; 0                 ; 6       ;
+;      - inst29~0                                  ; 0                 ; 6       ;
+;      - subcomp2:inst1|inst9~0                    ; 0                 ; 6       ;
+;      - subcomp2:inst1|inst9~1                    ; 0                 ; 6       ;
+;      - sistema:inst|Usoma~0                      ; 0                 ; 6       ;
+;      - inst66~0                                  ; 0                 ; 6       ;
+;      - complemento2:inst17|inst50~0              ; 0                 ; 6       ;
+;      - inst74~0                                  ; 0                 ; 6       ;
+;      - inst70~0                                  ; 0                 ; 6       ;
+;      - sistema:inst|Usoma~1                      ; 0                 ; 6       ;
+;      - inst100                                   ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst30~6              ; 0                 ; 6       ;
+;      - inst95~2                                  ; 0                 ; 6       ;
+;      - inst99~2                                  ; 0                 ; 6       ;
+;      - inst97~2                                  ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst91~5              ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst92~3              ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst94~3              ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst96~5              ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst101~3             ; 0                 ; 6       ;
+;      - bcd14segout3:inst57|inst102~3             ; 0                 ; 6       ;
+;      - inst72                                    ; 0                 ; 6       ;
 +--------------------------------------------------+-------------------+---------+
 
 
@@ -1601,56 +1611,56 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------+---------+
 ; Name                                      ; Fan-Out ;
 +-------------------------------------------+---------+
-; b0~input                                  ; 18      ;
+; subcomp2:inst1|inst9~0                    ; 23      ;
+; b~input                                   ; 22      ;
+; a~input                                   ; 22      ;
+; inst28~0                                  ; 20      ;
+; b0~input                                  ; 19      ;
+; inst27~0                                  ; 19      ;
+; a0~input                                  ; 18      ;
 ; b1~input                                  ; 17      ;
-; b3~input                                  ; 17      ;
-; a~input                                   ; 16      ;
-; b~input                                   ; 16      ;
-; a0~input                                  ; 16      ;
-; inst28~0                                  ; 16      ;
-; inst27~0                                  ; 16      ;
+; b3~input                                  ; 16      ;
+; a1~input                                  ; 16      ;
 ; inst26~0                                  ; 16      ;
-; subcomp2:inst1|inst9~1                    ; 16      ;
+; ulaula-soma-esquema:inst110|inst~0        ; 16      ;
 ; b2~input                                  ; 15      ;
-; a1~input                                  ; 15      ;
+; a2~input                                  ; 15      ;
 ; a3~input                                  ; 15      ;
-; ulaula-soma-esquema:inst110|inst~0        ; 15      ;
-; a2~input                                  ; 14      ;
-; sa~input                                  ; 13      ;
-; c~input                                   ; 12      ;
-; inst25~0                                  ; 11      ;
-; ulaula-soma-esquema:inst110|inst33~10     ; 7       ;
-; sb~input                                  ; 6       ;
+; inst25~0                                  ; 13      ;
+; sa~input                                  ; 11      ;
+; c~input                                   ; 9       ;
+; inst96~0                                  ; 9       ;
+; ulaula-soma-esquema:inst110|inst33~10     ; 8       ;
+; inst97~2                                  ; 7       ;
+; sb~input                                  ; 5       ;
+; inst99~2                                  ; 5       ;
+; inst95~2                                  ; 5       ;
 ; sistema:inst|Usoma~0                      ; 5       ;
-; subcomp2:inst1|inst9~0                    ; 5       ;
-; ulaula-soma-esquema:inst110|inst33~2      ; 5       ;
-; comple2_para_5_bits:inst6|inst21~0        ; 4       ;
+; subcomp2:inst1|inst9~1                    ; 5       ;
+; comple2_para_5_bits:inst3|inst21          ; 4       ;
+; complemento2:inst17|inst21~0              ; 4       ;
 ; bcd14seg:inst47|inst60                    ; 4       ;
 ; bcd14seg:inst20|inst60                    ; 4       ;
+; ulaula-soma-esquema:inst110|inst33~6      ; 4       ;
+; ulaula-soma-esquema:inst110|inst33~2      ; 4       ;
+; bcd14segout3:inst57|inst30~6              ; 3       ;
 ; complemento2:inst17|inst50~0              ; 3       ;
+; bcd14segout3:inst57|inst51~0              ; 3       ;
 ; comple2_para_5_bits:inst6|inst53~0        ; 3       ;
 ; comple2_para_5_bits:inst5|inst21~0        ; 3       ;
-; ulaula-soma-esquema:inst110|inst33~4      ; 3       ;
-; bcd14segout3:inst57|inst97~3              ; 2       ;
-; bcd14segout3:inst57|inst96~4              ; 2       ;
-; comple2_para_5_bits:inst3|inst21          ; 2       ;
+; sistema:inst|Usoma~1                      ; 2       ;
+; bcd14segout3:inst57|inst97~1              ; 2       ;
+; bcd14segout3:inst57|inst97~0              ; 2       ;
+; bcd14segout3:inst57|inst93~7              ; 2       ;
+; bcd14segout3:inst57|inst93~4              ; 2       ;
+; bcd14segout3:inst57|inst93~3              ; 2       ;
 ; comple2_para_5_bits:inst6|inst41~0        ; 2       ;
-; menor_que:inst4|igualigual:inst1|inst10~1 ; 2       ;
-; menor_que:inst4|igualigual:inst1|inst10~0 ; 2       ;
-; ulaula-soma-esquema:inst110|inst33~6      ; 2       ;
+; menor_que:inst4|igualigual:inst1|inst10~2 ; 2       ;
+; ulaula-soma-esquema:inst110|inst33~4      ; 2       ;
 ; ~ALTERA_nCEO~~obuf                        ; 1       ;
 ; ~ALTERA_DATA0~                            ; 1       ;
 ; ~ALTERA_DCLK~~obuf                        ; 1       ;
 ; ~ALTERA_FLASH_nCE_nCSO~                   ; 1       ;
-; ~ALTERA_ASDO_DATA1~                       ; 1       ;
-; a                                         ; 1       ;
-; b                                         ; 1       ;
-; c                                         ; 1       ;
-; sb                                        ; 1       ;
-; sa                                        ; 1       ;
-; b0                                        ; 1       ;
-; b1                                        ; 1       ;
-; b2                                        ; 1       ;
 +-------------------------------------------+---------+
 
 
@@ -1659,30 +1669,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------+-------------------------+
 ; Interconnect Resource Type ; Usage                   ;
 +----------------------------+-------------------------+
-; Block interconnects        ; 141 / 342,891 ( < 1 % ) ;
-; C16 interconnects          ; 54 / 10,120 ( < 1 % )   ;
-; C4 interconnects           ; 224 / 209,544 ( < 1 % ) ;
-; Direct links               ; 23 / 342,891 ( < 1 % )  ;
+; Block interconnects        ; 174 / 342,891 ( < 1 % ) ;
+; C16 interconnects          ; 38 / 10,120 ( < 1 % )   ;
+; C4 interconnects           ; 310 / 209,544 ( < 1 % ) ;
+; Direct links               ; 18 / 342,891 ( < 1 % )  ;
 ; Global clocks              ; 0 / 20 ( 0 % )          ;
-; Local interconnects        ; 36 / 119,088 ( < 1 % )  ;
-; R24 interconnects          ; 46 / 9,963 ( < 1 % )    ;
-; R4 interconnects           ; 121 / 289,782 ( < 1 % ) ;
+; Local interconnects        ; 43 / 119,088 ( < 1 % )  ;
+; R24 interconnects          ; 44 / 9,963 ( < 1 % )    ;
+; R4 interconnects           ; 149 / 289,782 ( < 1 % ) ;
 +----------------------------+-------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 10.40) ; Number of LABs  (Total = 10) ;
+; Number of Logic Elements  (Average = 12.50) ; Number of LABs  (Total = 10) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
-; 2                                           ; 1                            ;
+; 1                                           ; 1                            ;
+; 2                                           ; 0                            ;
 ; 3                                           ; 0                            ;
 ; 4                                           ; 1                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
 ; 7                                           ; 0                            ;
-; 8                                           ; 0                            ;
+; 8                                           ; 1                            ;
 ; 9                                           ; 0                            ;
 ; 10                                          ; 0                            ;
 ; 11                                          ; 0                            ;
@@ -1690,24 +1700,24 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 13                                          ; 0                            ;
 ; 14                                          ; 0                            ;
 ; 15                                          ; 0                            ;
-; 16                                          ; 6                            ;
+; 16                                          ; 7                            ;
 +---------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 10.30) ; Number of LABs  (Total = 10) ;
+; Number of Signals Sourced  (Average = 12.40) ; Number of LABs  (Total = 10) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
-; 2                                            ; 1                            ;
+; 1                                            ; 1                            ;
+; 2                                            ; 0                            ;
 ; 3                                            ; 0                            ;
 ; 4                                            ; 1                            ;
 ; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
-; 8                                            ; 0                            ;
+; 8                                            ; 1                            ;
 ; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
@@ -1715,62 +1725,65 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
 ; 15                                           ; 1                            ;
-; 16                                           ; 5                            ;
+; 16                                           ; 6                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 7.70) ; Number of LABs  (Total = 10) ;
+; Number of Signals Sourced Out  (Average = 9.20) ; Number of LABs  (Total = 10) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
-; 1                                               ; 2                            ;
+; 1                                               ; 1                            ;
 ; 2                                               ; 1                            ;
 ; 3                                               ; 0                            ;
-; 4                                               ; 1                            ;
+; 4                                               ; 0                            ;
 ; 5                                               ; 0                            ;
 ; 6                                               ; 0                            ;
 ; 7                                               ; 1                            ;
 ; 8                                               ; 1                            ;
 ; 9                                               ; 0                            ;
-; 10                                              ; 0                            ;
+; 10                                              ; 3                            ;
 ; 11                                              ; 0                            ;
-; 12                                              ; 2                            ;
+; 12                                              ; 0                            ;
 ; 13                                              ; 0                            ;
 ; 14                                              ; 1                            ;
-; 15                                              ; 0                            ;
-; 16                                              ; 1                            ;
+; 15                                              ; 2                            ;
 +-------------------------------------------------+------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; LAB Distinct Inputs                                                        ;
-+---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 9.10) ; Number of LABs  (Total = 10) ;
-+---------------------------------------------+------------------------------+
-; 0                                           ; 0                            ;
-; 1                                           ; 0                            ;
-; 2                                           ; 1                            ;
-; 3                                           ; 0                            ;
-; 4                                           ; 1                            ;
-; 5                                           ; 0                            ;
-; 6                                           ; 2                            ;
-; 7                                           ; 1                            ;
-; 8                                           ; 1                            ;
-; 9                                           ; 0                            ;
-; 10                                          ; 1                            ;
-; 11                                          ; 0                            ;
-; 12                                          ; 0                            ;
-; 13                                          ; 1                            ;
-; 14                                          ; 0                            ;
-; 15                                          ; 1                            ;
-; 16                                          ; 0                            ;
-; 17                                          ; 0                            ;
-; 18                                          ; 0                            ;
-; 19                                          ; 0                            ;
-; 20                                          ; 1                            ;
-+---------------------------------------------+------------------------------+
++-----------------------------------------------------------------------------+
+; LAB Distinct Inputs                                                         ;
++----------------------------------------------+------------------------------+
+; Number of Distinct Inputs  (Average = 12.10) ; Number of LABs  (Total = 10) ;
++----------------------------------------------+------------------------------+
+; 0                                            ; 0                            ;
+; 1                                            ; 0                            ;
+; 2                                            ; 0                            ;
+; 3                                            ; 0                            ;
+; 4                                            ; 1                            ;
+; 5                                            ; 0                            ;
+; 6                                            ; 0                            ;
+; 7                                            ; 1                            ;
+; 8                                            ; 0                            ;
+; 9                                            ; 1                            ;
+; 10                                           ; 2                            ;
+; 11                                           ; 0                            ;
+; 12                                           ; 0                            ;
+; 13                                           ; 1                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 0                            ;
+; 16                                           ; 1                            ;
+; 17                                           ; 0                            ;
+; 18                                           ; 0                            ;
+; 19                                           ; 0                            ;
+; 20                                           ; 0                            ;
+; 21                                           ; 0                            ;
+; 22                                           ; 0                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 1                            ;
++----------------------------------------------+------------------------------+
 
 
 +------------------------------------------+
@@ -1896,8 +1909,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; sa                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; sb                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; c                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; b                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; a                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; b                  ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -1950,7 +1963,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Tue Apr 17 21:20:50 2018
+    Info: Processing started: Tue Apr 17 21:56:52 2018
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off ULA-16-04-18a -c ULA-16-04-18a
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Selected device EP4CE115F29C7 for design "ULA-16-04-18a"
@@ -2014,10 +2027,10 @@ Info: Delay annotation completed successfully
 Warning: Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info: Generated suppressed messages file C:/Users/lfms/Documents/Projeto_ULA/ULA-16-04-18a.fit.smsg
 Info: Quartus II Fitter was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 433 megabytes
-    Info: Processing ended: Tue Apr 17 21:21:03 2018
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Peak virtual memory: 434 megabytes
+    Info: Processing ended: Tue Apr 17 21:57:04 2018
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:17
 
 
 +----------------------------+

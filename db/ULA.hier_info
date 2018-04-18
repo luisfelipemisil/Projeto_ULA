@@ -1,37 +1,41 @@
 |ULA
 iaf1 <= bcd14seg:inst20.of1
 a3 => bcd14seg:inst20.in1
-a3 => mandachuva:inst37.in3
-a3 => mandachuva:inst35.in3
+a3 => menor_que:inst4.a3
+a3 => maior_que:inst34.a3
+a3 => igualigual:inst18.a3
+a3 => zero1:inst114.e3
+a3 => comple2_para_5_bits:inst5.i3
 a3 => aa3.IN1
-a3 => maior_que:inst31.a3
-a3 => mandachuva:inst43.in3
-a3 => mandachuva:inst45.in3
-a3 => mandachuva:inst40.in3
+a3 => ULAand:inst68.a3
+a3 => ULAxor:inst69.a3
 a2 => bcd14seg:inst20.in2
-a2 => mandachuva:inst37.in2
-a2 => mandachuva:inst35.in2
+a2 => menor_que:inst4.a2
+a2 => maior_que:inst34.a2
+a2 => igualigual:inst18.a2
+a2 => zero1:inst114.e2
+a2 => comple2_para_5_bits:inst5.i2
 a2 => aa2.IN1
-a2 => maior_que:inst31.a2
-a2 => mandachuva:inst43.in2
-a2 => mandachuva:inst45.in2
-a2 => mandachuva:inst40.in2
+a2 => ULAand:inst68.a2
+a2 => ULAxor:inst69.a2
 a1 => bcd14seg:inst20.in3
-a1 => mandachuva:inst37.in1
-a1 => mandachuva:inst35.in1
+a1 => menor_que:inst4.a1
+a1 => maior_que:inst34.a1
+a1 => igualigual:inst18.a1
+a1 => zero1:inst114.e1
+a1 => comple2_para_5_bits:inst5.i1
 a1 => aa1.IN1
-a1 => maior_que:inst31.a1
-a1 => mandachuva:inst43.in1
-a1 => mandachuva:inst45.in1
-a1 => mandachuva:inst40.in1
+a1 => ULAand:inst68.a1
+a1 => ULAxor:inst69.a1
 a0 => bcd14seg:inst20.in4
-a0 => mandachuva:inst37.in0
-a0 => mandachuva:inst35.in0
+a0 => menor_que:inst4.a0
+a0 => maior_que:inst34.a0
+a0 => igualigual:inst18.a0
+a0 => zero1:inst114.e0
+a0 => comple2_para_5_bits:inst5.i0
 a0 => aa0.IN1
-a0 => maior_que:inst31.a0
-a0 => mandachuva:inst43.in0
-a0 => mandachuva:inst45.in0
-a0 => mandachuva:inst40.in0
+a0 => ULAand:inst68.a0
+a0 => ULAxor:inst69.a0
 iad1 <= bcd14seg:inst20.od1
 iag1 <= bcd14seg:inst20.og1
 iab1 <= bcd14seg:inst20.ob1
@@ -47,41 +51,45 @@ iaf2 <= bcd14seg:inst20.of2
 iag2 <= bcd14seg:inst20.og2
 ibf3 <= bcd14seg:inst47.of1
 b3 => bcd14seg:inst47.in1
-b3 => mandachuva:inst38.in3
-b3 => mandachuva:inst36.in3
+b3 => menor_que:inst4.b3
+b3 => maior_que:inst34.b3
+b3 => igualigual:inst18.b3
+b3 => zero1:inst113.e3
+b3 => comple2_para_5_bits:inst6.i3
 b3 => bb3.IN1
-b3 => maior_que:inst31.b3
-b3 => mandachuva:inst44.in3
-b3 => mandachuva:inst46.in3
+b3 => ULAand:inst68.b3
+b3 => ULAxor:inst69.b3
 b3 => complemento2:inst17.i3
-b3 => mandachuva:inst41.in3
 b2 => bcd14seg:inst47.in2
-b2 => mandachuva:inst38.in2
-b2 => mandachuva:inst36.in2
+b2 => menor_que:inst4.b2
+b2 => maior_que:inst34.b2
+b2 => igualigual:inst18.b2
+b2 => zero1:inst113.e2
+b2 => comple2_para_5_bits:inst6.i2
 b2 => bb22.IN1
-b2 => maior_que:inst31.b2
-b2 => mandachuva:inst44.in2
-b2 => mandachuva:inst46.in2
+b2 => ULAand:inst68.b2
+b2 => ULAxor:inst69.b2
 b2 => complemento2:inst17.i2
-b2 => mandachuva:inst41.in2
 b1 => bcd14seg:inst47.in3
-b1 => mandachuva:inst38.in1
-b1 => mandachuva:inst36.in1
+b1 => menor_que:inst4.b1
+b1 => maior_que:inst34.b1
+b1 => igualigual:inst18.b1
+b1 => zero1:inst113.e1
+b1 => comple2_para_5_bits:inst6.i1
 b1 => bb1.IN1
-b1 => maior_que:inst31.b1
-b1 => mandachuva:inst44.in1
-b1 => mandachuva:inst46.in1
+b1 => ULAand:inst68.b1
+b1 => ULAxor:inst69.b1
 b1 => complemento2:inst17.i1
-b1 => mandachuva:inst41.in1
 b0 => bcd14seg:inst47.in4
-b0 => mandachuva:inst38.in0
-b0 => mandachuva:inst36.in0
+b0 => menor_que:inst4.b0
+b0 => maior_que:inst34.b0
+b0 => igualigual:inst18.b0
+b0 => zero1:inst113.e0
 b0 => bb0.IN1
-b0 => maior_que:inst31.b0
-b0 => mandachuva:inst44.in0
-b0 => mandachuva:inst46.in0
+b0 => comple2_para_5_bits:inst6.i0
+b0 => ULAand:inst68.b0
+b0 => ULAxor:inst69.b0
 b0 => complemento2:inst17.i0
-b0 => mandachuva:inst41.in0
 ibd3 <= bcd14seg:inst47.od1
 ibg3 <= bcd14seg:inst47.og1
 ibb3 <= bcd14seg:inst47.ob1
@@ -96,21 +104,23 @@ ibe4 <= bcd14seg:inst47.oe2
 ibf4 <= bcd14seg:inst47.of2
 ibg4 <= bcd14seg:inst47.og2
 pin_name <= inst56.DB_MAX_OUTPUT_PORT_TYPE
-c => sistema:inst.c
-b => sistema:inst.b
-a => sistema:inst.a
+sa => menor_que:inst4.sa
 sa => maior_que:inst34.sa
-sa => inst21.IN0
+sa => igualigual:inst18.sa
+sa => inst31.IN0
 sa => ULAand:inst68.sa
 sa => ULAxor:inst69.sa
 sa => Sa2.DATAIN
-sa => maior_que:inst39.sb
+sb => menor_que:inst4.sb
 sb => maior_que:inst34.sb
-sb => inst64.IN0
+sb => igualigual:inst18.sb
+sb => subComp2:inst1.Sb
 sb => ULAand:inst68.sb
 sb => ULAxor:inst69.sb
 sb => SB2.DATAIN
-sb => maior_que:inst39.sa
+c => sistema:inst.c
+b => sistema:inst.b
+a => sistema:inst.a
 Sinal58 <= bcd14segout3:inst57.SinalS
 oa1 <= bcd14segout3:inst57.oa1
 ob1 <= bcd14segout3:inst57.ob1
@@ -237,6 +247,77 @@ of2 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
 og2 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
 
 
+|ULA|menor_que:inst4
+OUT <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+a3 => igualigual:inst1.a0
+a3 => inst12.IN2
+a3 => inst7.IN0
+a3 => inst.IN0
+a3 => zero:inst3.a3
+b3 => igualigual:inst1.b0
+b3 => inst12.IN1
+b3 => inst4.IN0
+b3 => zero:inst3.b3
+a2 => igualigual:inst1.a1
+a2 => inst26.IN2
+a2 => inst10.IN0
+a2 => inst14.IN0
+a2 => zero:inst3.a2
+b2 => igualigual:inst1.b1
+b2 => inst26.IN1
+b2 => inst9.IN0
+b2 => zero:inst3.b2
+a1 => igualigual:inst1.a2
+a1 => inst32.IN2
+a1 => inst30.IN0
+a1 => inst27.IN0
+a1 => zero:inst3.a1
+b1 => igualigual:inst1.b2
+b1 => inst32.IN1
+b1 => inst28.IN0
+b1 => zero:inst3.b1
+a0 => igualigual:inst1.a3
+a0 => inst33.IN0
+a0 => zero:inst3.a0
+b0 => igualigual:inst1.b3
+b0 => inst34.IN0
+b0 => zero:inst3.b0
+sa => igualigual:inst1.sa
+sa => inst17.IN0
+sa => inst13.IN0
+sa => inst5.IN0
+sb => igualigual:inst1.sb
+sb => inst17.IN1
+sb => inst16.IN0
+sb => inst2.IN1
+
+
+|ULA|menor_que:inst4|igualigual:inst1
+s <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst.IN0
+b0 => inst.IN1
+a1 => inst1.IN0
+b1 => inst1.IN1
+a2 => inst2.IN0
+b2 => inst2.IN1
+a3 => inst3.IN0
+b3 => inst3.IN1
+sa => inst4.IN0
+sb => inst4.IN1
+
+
+|ULA|menor_que:inst4|zero:inst3
+OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+b0 => inst.IN0
+a0 => inst.IN1
+b1 => inst1.IN0
+a1 => inst1.IN1
+b2 => inst2.IN0
+a2 => inst2.IN1
+b3 => inst3.IN0
+a3 => inst3.IN1
+
+
 |ULA|sistema:inst
 Soma <= Usoma.DB_MAX_OUTPUT_PORT_TYPE
 c => inst4.IN0
@@ -264,54 +345,74 @@ menor_que <= menor_q.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ULA|maior_que:inst34
-OUT <= inst68.DB_MAX_OUTPUT_PORT_TYPE
-a0 => inst12.IN0
-b0 => inst14.IN0
+OUT <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+a3 => igualigual:inst1.a0
+a3 => zero:inst3.b3
+a3 => inst12.IN2
+a3 => inst7.IN0
+a3 => inst.IN0
+b3 => igualigual:inst1.b0
+b3 => zero:inst3.a3
+b3 => inst12.IN1
+b3 => inst4.IN0
+a2 => igualigual:inst1.a1
+a2 => zero:inst3.b2
+a2 => inst26.IN2
+a2 => inst10.IN0
+a2 => inst14.IN0
+b2 => igualigual:inst1.b1
+b2 => zero:inst3.a2
+b2 => inst26.IN1
+b2 => inst9.IN0
+a1 => igualigual:inst1.a2
+a1 => zero:inst3.b1
+a1 => inst32.IN2
+a1 => inst30.IN0
+a1 => inst27.IN0
+b1 => igualigual:inst1.b2
+b1 => zero:inst3.a1
+b1 => inst32.IN1
+b1 => inst28.IN0
+a0 => igualigual:inst1.a3
+a0 => zero:inst3.b0
+a0 => inst33.IN0
+b0 => igualigual:inst1.b3
+b0 => zero:inst3.a0
+b0 => inst34.IN0
+sa => igualigual:inst1.sa
 sa => inst17.IN0
 sa => inst13.IN0
-sa => inst2.IN0
+sa => inst5.IN0
+sb => igualigual:inst1.sb
 sb => inst17.IN1
 sb => inst16.IN0
-sb => inst5.IN0
-b3 => inst1.IN1
-b3 => inst4.IN0
-b2 => inst3.IN1
-b2 => inst8.IN0
-b1 => inst10.IN1
-b1 => inst11.IN0
-a1 => inst9.IN0
-a2 => inst7.IN0
-a3 => inst.IN0
+sb => inst2.IN1
 
 
-|ULA|mandachuva:inst37
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
+|ULA|maior_que:inst34|igualigual:inst1
+s <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+a0 => inst.IN0
+b0 => inst.IN1
+a1 => inst1.IN0
+b1 => inst1.IN1
+a2 => inst2.IN0
+b2 => inst2.IN1
+a3 => inst3.IN0
+b3 => inst3.IN1
+sa => inst4.IN0
+sb => inst4.IN1
 
 
-|ULA|mandachuva:inst38
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
+|ULA|maior_que:inst34|zero:inst3
+OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+b0 => inst.IN0
+a0 => inst.IN1
+b1 => inst1.IN0
+a1 => inst1.IN1
+b2 => inst2.IN0
+a2 => inst2.IN1
+b3 => inst3.IN0
+a3 => inst3.IN1
 
 
 |ULA|igualigual:inst18
@@ -328,67 +429,133 @@ sa => inst4.IN0
 sb => inst4.IN1
 
 
-|ULA|mandachuva:inst35
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
-|ULA|mandachuva:inst36
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
 |ULA|bcd14segout3:inst57
-oa1 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
-mandaChuva => 44.IN0
-mandaChuva => 41.IN0
-mandaChuva => 10.IN0
-mandaChuva => 42.IN0
-mandaChuva => 43.IN0
-mandaChuva => 45.IN1
-A => 44.IN1
-D => 41.IN1
-E => 10.IN1
-C => 42.IN1
-B => 43.IN1
-ob1 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
-oe1 <= inst31.DB_MAX_OUTPUT_PORT_TYPE
-of1 <= inst32.DB_MAX_OUTPUT_PORT_TYPE
-oc1 <= inst34.DB_MAX_OUTPUT_PORT_TYPE
-od1 <= inst33.DB_MAX_OUTPUT_PORT_TYPE
-og1 <= inst46.DB_MAX_OUTPUT_PORT_TYPE
-oa2 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
-od2 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
-of2 <= inst56.DB_MAX_OUTPUT_PORT_TYPE
-oc2 <= inst60.DB_MAX_OUTPUT_PORT_TYPE
-oe2 <= inst67.DB_MAX_OUTPUT_PORT_TYPE
-og2 <= inst70.DB_MAX_OUTPUT_PORT_TYPE
-ob2 <= <GND>
-SinalS <= inst28.DB_MAX_OUTPUT_PORT_TYPE
-sinalE => 45.IN0
+oa1 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+A => 8.IN0
+A => inst15.IN0
+A => 7.IN0
+A => 6.IN0
+A => 9.IN0
+A => 36.IN0
+A => inst29.IN0
+A => inst25.IN0
+A => 21.IN0
+A => 20.IN0
+A => 32.IN0
+A => 31.IN0
+A => 26.IN0
+A => inst39.IN0
+A => inst40.IN0
+A => inst49.IN0
+A => inst65.IN0
+A => inst64.IN0
+A => inst69.IN0
+A => inst68.IN0
+D => 8.IN1
+D => inst20.IN0
+D => 1.IN1
+D => 14.IN1
+D => 13.IN1
+D => 12.IN2
+D => 35.IN1
+D => 34.IN1
+D => inst79.IN3
+D => inst29.IN3
+D => 40.IN1
+D => 19.IN1
+D => 31.IN3
+D => 27.IN3
+D => 25.IN1
+D => 24.IN1
+D => inst35.IN2
+D => inst36.IN1
+D => inst40.IN2
+D => inst58.IN2
+E => inst21.IN0
+E => 3.IN2
+E => 7.IN2
+E => 14.IN2
+E => 13.IN2
+E => 11.IN2
+E => inst75.IN1
+E => 30.IN3
+E => 123.IN1
+E => 28.IN3
+C => 3.IN1
+C => inst16.IN0
+C => 5.IN1
+C => 9.IN1
+C => 36.IN1
+C => inst79.IN2
+C => inst27.IN2
+C => inst26.IN2
+C => 22.IN2
+C => 30.IN2
+C => 31.IN2
+C => 26.IN1
+C => 28.IN1
+C => inst37.IN1
+C => inst38.IN2
+C => inst48.IN1
+C => inst58.IN1
+C => inst62.IN1
+C => inst64.IN1
+C => inst68.IN1
+B => inst14.IN0
+B => 5.IN0
+B => 4.IN1
+B => 17.IN0
+B => 16.IN1
+B => 15.IN1
+B => 37.IN1
+B => inst79.IN1
+B => inst25.IN1
+B => 40.IN0
+B => 39.IN0
+B => 19.IN0
+B => 30.IN1
+B => 32.IN1
+B => 29.IN1
+B => inst43.IN0
+B => inst38.IN1
+B => inst49.IN1
+B => inst58.IN0
+B => inst65.IN1
+B => inst69.IN1
+mandaChuva => inst1.IN0
+ob1 <= inst91.DB_MAX_OUTPUT_PORT_TYPE
+oe1 <= inst94.DB_MAX_OUTPUT_PORT_TYPE
+of1 <= inst95.DB_MAX_OUTPUT_PORT_TYPE
+oc1 <= inst92.DB_MAX_OUTPUT_PORT_TYPE
+od1 <= inst93.DB_MAX_OUTPUT_PORT_TYPE
+og1 <= inst96.DB_MAX_OUTPUT_PORT_TYPE
+oa2 <= inst97.DB_MAX_OUTPUT_PORT_TYPE
+od2 <= inst98.DB_MAX_OUTPUT_PORT_TYPE
+of2 <= inst100.DB_MAX_OUTPUT_PORT_TYPE
+oc2 <= inst101.DB_MAX_OUTPUT_PORT_TYPE
+oe2 <= inst102.DB_MAX_OUTPUT_PORT_TYPE
+og2 <= inst103.DB_MAX_OUTPUT_PORT_TYPE
+ob2 <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+SinalS <= sinalE.DB_MAX_OUTPUT_PORT_TYPE
+sinalE => SinalS.DATAIN
 
 
-|ULA|ULAULA-SOMA-esquema:inst14
+|ULA|comple2_para_5_bits:inst3
+s0 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+soma => inst48.IN0
+sinal => inst48.IN1
+i0 => inst30.IN0
+s1 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+i1 => inst31.IN0
+s2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+i2 => inst32.IN0
+s3 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+i3 => inst36.IN0
+s4 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+i4 => inst40.IN0
+
+
+|ULA|ulaula-soma-esquema:inst110
 s0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
 a0 => inst2.IN0
 a0 => abc.IN0
@@ -433,28 +600,80 @@ b3 => inst25.IN0
 b3 => abc46.IN1
 b3 => inst27.IN0
 b3 => inst26.IN1
-s4 <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+a4 => inst30.IN0
+a4 => abc47.IN0
+a4 => sdass3.IN0
+a4 => inst37.IN0
+a4 => inst35.IN0
+b4 => sdaas1.IN1
+b4 => inst32.IN0
+b4 => abc47.IN1
+b4 => inst36.IN0
+b4 => inst35.IN1
+s5 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+a5 => inst39.IN0
+a5 => abc48.IN0
+a5 => sdass4.IN0
+b5 => sdaas2.IN1
+b5 => inst42.IN0
+b5 => abc48.IN1
 
 
-|ULA|maior_que:inst31
-OUT <= inst68.DB_MAX_OUTPUT_PORT_TYPE
-a0 => inst12.IN0
-b0 => inst14.IN0
-sa => inst17.IN0
-sa => inst13.IN0
-sa => inst2.IN0
-sb => inst17.IN1
-sb => inst16.IN0
-sb => inst5.IN0
-b3 => inst1.IN1
-b3 => inst4.IN0
-b2 => inst3.IN1
-b2 => inst8.IN0
-b1 => inst10.IN1
-b1 => inst11.IN0
-a1 => inst9.IN0
-a2 => inst7.IN0
-a3 => inst.IN0
+|ULA|comple2_para_5_bits:inst5
+s0 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+soma => inst48.IN0
+sinal => inst48.IN1
+i0 => inst30.IN0
+s1 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+i1 => inst31.IN0
+s2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+i2 => inst32.IN0
+s3 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+i3 => inst36.IN0
+s4 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+i4 => inst40.IN0
+
+
+|ULA|zero1:inst114
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+e3 => inst3.IN0
+e2 => inst3.IN1
+e1 => inst.IN0
+e0 => inst.IN1
+
+
+|ULA|zero1:inst113
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+e3 => inst3.IN0
+e2 => inst3.IN1
+e1 => inst.IN0
+e0 => inst.IN1
+
+
+|ULA|subComp2:inst1
+OUT <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+soma_ => inst7.IN0
+soma_ => inst3.IN0
+sub_ => inst8.IN0
+sub_ => inst6.IN1
+Sb => inst7.IN2
+Sb => inst5.IN0
+
+
+|ULA|comple2_para_5_bits:inst6
+s0 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+soma => inst48.IN0
+sinal => inst48.IN1
+i0 => inst30.IN0
+s1 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+i1 => inst31.IN0
+s2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+i2 => inst32.IN0
+s3 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+i3 => inst36.IN0
+s4 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+i4 => inst40.IN0
 
 
 |ULA|ULAand:inst68
@@ -475,36 +694,6 @@ sa => inst12.IN0
 sb => inst12.IN1
 
 
-|ULA|mandachuva:inst43
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
-|ULA|mandachuva:inst44
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
 |ULA|ULAxor:inst69
 s0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
 a0 => inst.IN0
@@ -523,99 +712,16 @@ sa => inst4.IN0
 sb => inst4.IN1
 
 
-|ULA|mandachuva:inst45
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
-|ULA|mandachuva:inst46
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
 |ULA|complemento2:inst17
-s0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+i0 => inst30.IN0
 soma => inst48.IN0
 sinal => inst48.IN1
-i0 => inst49.IN1
-s1 <= inst33.DB_MAX_OUTPUT_PORT_TYPE
-i1 => inst50.IN1
-s2 <= inst41.DB_MAX_OUTPUT_PORT_TYPE
-i2 => inst51.IN1
-s3 <= inst47.DB_MAX_OUTPUT_PORT_TYPE
-i3 => inst52.IN1
-s4 <= inst54.DB_MAX_OUTPUT_PORT_TYPE
-i4 => inst53.IN1
-
-
-|ULA|maior_que:inst39
-OUT <= inst68.DB_MAX_OUTPUT_PORT_TYPE
-a0 => inst12.IN0
-b0 => inst14.IN0
-sa => inst17.IN0
-sa => inst13.IN0
-sa => inst2.IN0
-sb => inst17.IN1
-sb => inst16.IN0
-sb => inst5.IN0
-b3 => inst1.IN1
-b3 => inst4.IN0
-b2 => inst3.IN1
-b2 => inst8.IN0
-b1 => inst10.IN1
-b1 => inst11.IN0
-a1 => inst9.IN0
-a2 => inst7.IN0
-a3 => inst.IN0
-
-
-|ULA|mandachuva:inst40
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
-
-
-|ULA|mandachuva:inst41
-i0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
-in0 => inst.IN0
-mandaChuva => inst.IN1
-mandaChuva => inst3.IN1
-mandaChuva => inst4.IN1
-mandaChuva => inst5.IN1
-i1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-in1 => inst3.IN0
-i2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
-in2 => inst4.IN0
-i3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-in3 => inst5.IN0
+s1 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+i1 => inst31.IN0
+s2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+i2 => inst32.IN0
+s3 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+i3 => inst36.IN0
 
 
